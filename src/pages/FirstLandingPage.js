@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 const FirstLandingPage = () => {
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
+    <div className="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
       <HeroSection />
       <SectionPractitionerAndVendo />
       <section className="self-stretch flex flex-col items-center justify-center py-14 px-0 box-border gap-[56px] max-w-full text-center text-smi text-consumer-colors-monochromatic font-web-primary-h3-primary-dm-sans mq750:gap-[28px] mq750:pt-9 mq750:pb-9 mq750:box-border">

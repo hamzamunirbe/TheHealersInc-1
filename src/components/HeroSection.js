@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <section className="self-stretch bg-gray-300 flex flex-col items-start justify-start pt-0 px-0 pb-[205px] box-border gap-[109px] max-w-full text-center text-53xl text-neutral-1 font-web-primary-h3-primary-dm-sans mq450:gap-[27px] mq750:gap-[54px] mq750:pb-[133px] mq750:box-border">
+    <section className="self-stretch bg-gray-300 flex flex-col items-start justify-start pt-0 px-0 pb-[205px] box-border gap-[109px] max-w-full text-center text-53xl text-white font-web-primary-h3-primary-dm-sans mq450:gap-[27px] mq750:gap-[54px] mq750:pb-[133px] mq750:box-border">
       <header className="self-stretch flex flex-row items-start justify-start py-6 px-[100px] top-[0] z-[99] sticky mq450:gap-[101px] mq450:pl-5 mq450:pr-5 mq450:box-border">
         <div className="w-60 flex flex-row items-end justify-start gap-[12.6px]">
           <img

@@ -9,7 +9,7 @@ const ButtonBusinessCard = ({ propDisplay, propMinWidth }) => {
   }, [propDisplay, propMinWidth]);
 
   return (
-    <div className="w-[298px] rounded-xl bg-neutral-1 shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] shrink-0 flex flex-row items-start justify-start text-left text-xl text-neutral-10 font-web-primary-h3-primary-dm-sans">
+    <div className="w-[298px] rounded-xl bg-white shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] shrink-0 flex flex-row items-start justify-start text-left text-xl text-neutral-10 font-web-primary-h3-primary-dm-sans">
       <div className="flex-1 flex flex-col items-center justify-start">
         <div className="self-stretch flex flex-row items-center justify-start p-4">
           <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -49,7 +49,7 @@ const ButtonBusinessCard = ({ propDisplay, propMinWidth }) => {
                 </div>
               </div>
             </div>
-            <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+            <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-white">
               <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                 <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                   Enabled

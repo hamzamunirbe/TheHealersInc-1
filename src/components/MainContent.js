@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 
 const MainContent = () => {
   return (
-    <section className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[222px] box-border relative gap-[148px] max-w-full text-center text-41xl text-neutral-1 font-web-primary-h3-primary-dm-sans mq750:gap-[74px] mq1050:pb-36 mq1050:box-border mq450:gap-[37px] mq450:pb-[94px] mq450:box-border">
+    <section className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[222px] box-border relative gap-[148px] max-w-full text-center text-41xl text-white font-web-primary-h3-primary-dm-sans mq750:gap-[74px] mq1050:pb-36 mq1050:box-border mq450:gap-[37px] mq450:pb-[94px] mq450:box-border">
       <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] overflow-hidden">
         <img
           className="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] max-w-full overflow-hidden max-h-full object-cover"
@@ -76,7 +76,7 @@ const MainContent = () => {
           </div>
           <div className="self-stretch h-[132px] overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[8px] text-left text-mini text-gray-700">
             <div className="self-stretch flex-1 rounded-3xs bg-darkorange overflow-x-auto flex flex-row items-center justify-start py-6 px-8 gap-[16px]">
-              <div className="flex-1 rounded-md bg-neutral-1 overflow-hidden shrink-0 flex flex-col items-start justify-start py-3.5 px-[15px] whitespace-nowrap border-[1px] border-solid border-whitesmoke-200">
+              <div className="flex-1 rounded-md bg-white overflow-hidden shrink-0 flex flex-col items-start justify-start py-3.5 px-[15px] whitespace-nowrap border-[1px] border-solid border-whitesmoke-200">
                 <div className="self-stretch relative tracking-[-0.18px] leading-[16px] mix-blend-normal">
                   Search for anything
                 </div>

@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 
 const SectionPractitionerAndVendo = () => {
   return (
-    <section className="self-stretch flex flex-row items-start justify-center max-w-full text-left text-5xl text-neutral-1 font-web-primary-h3-primary-dm-sans">
+    <section className="self-stretch flex flex-row items-start justify-center max-w-full text-left text-5xl text-white font-web-primary-h3-primary-dm-sans">
       <div className="h-[500px] flex-1 relative max-w-full">
         <div className="absolute top-[0px] left-[0px] w-[720px] overflow-hidden flex flex-col items-start justify-start pt-14 px-[100px] pb-[287px] box-border bg-[url('/public/divpractitionernavigation@3x.png')] bg-cover bg-no-repeat bg-[top] min-h-[500px] max-w-full">
           <div className="self-stretch flex flex-col items-start justify-start gap-[24px]">

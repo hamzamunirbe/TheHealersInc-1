@@ -18,9 +18,9 @@ const SectionTheHealersApp1 = () => {
           easy to prioritize your well-being, no matter how busy life gets.
         </div>
       </div>
-      <div className="w-[243px] flex flex-col items-start justify-start pt-[39.5px] px-0 pb-0 box-border min-w-[243px] text-lgi text-black font-gilroy-bold mq1225:flex-1">
+      <div className="w-[243px] flex flex-col items-start justify-start pt-[39.5px] px-0 pb-0 box-border min-w-[243px] text-lgi text-m3-black font-gilroy-bold mq1225:flex-1">
         <div className="self-stretch flex flex-col items-start justify-start gap-[38px]">
-          <div className="rounded-2xl bg-neutral-1 flex flex-row items-start justify-start p-4 gap-[16px]">
+          <div className="rounded-2xl bg-white flex flex-row items-start justify-start p-4 gap-[16px]">
             <div className="flex flex-row items-start justify-start py-1 px-0">
               <div className="h-4 w-4 relative rounded-[50%] bg-lightcoral" />
             </div>
@@ -29,7 +29,7 @@ const SectionTheHealersApp1 = () => {
               <p className="m-0">Simple</p>
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-end text-center text-neutral-1">
+          <div className="self-stretch flex flex-row items-start justify-end text-center text-white">
             <div className="w-[200px] flex flex-row items-start justify-start relative">
               <div className="h-[530px] w-[409.1px] absolute !m-[0] top-[-242px] right-[-251px]">
                 <div className="absolute top-[0px] left-[234.1px] rounded-3xs bg-orange w-[175px] h-[216px] mix-blend-normal" />

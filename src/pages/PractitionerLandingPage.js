@@ -239,7 +239,7 @@ const PractitionerLandingPage = () => {
           />
         </div>
       </section>
-      <footer className="self-stretch bg-neutral-1 flex flex-col items-center justify-start py-10 px-5 box-border gap-[32px] max-w-full text-left text-mid text-gray-200 font-web-primary-h3-primary-dm-sans mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq750:gap-[16px]">
+      <footer className="self-stretch bg-white flex flex-col items-center justify-start py-10 px-5 box-border gap-[32px] max-w-full text-left text-mid text-gray-200 font-web-primary-h3-primary-dm-sans mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq750:gap-[16px]">
         <div className="flex flex-row items-start justify-start gap-[61.6px] max-w-full mq450:gap-[15px] mq750:gap-[31px] mq1225:flex-wrap">
           <div className="w-64 overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[32px] text-mini text-gray-700 mq450:gap-[16px]">
             <div className="w-60 flex flex-row items-end justify-start gap-[12.6px]">
@@ -313,7 +313,7 @@ const PractitionerLandingPage = () => {
               Cookie Preferences
             </div>
           </div>
-          <div className="w-[135px] flex flex-col items-start justify-start gap-[16px] text-4xs-4 text-neutral-1 font-open-sans">
+          <div className="w-[135px] flex flex-col items-start justify-start gap-[16px] text-4xs-4 text-white font-open-sans">
             <div className="self-stretch flex flex-col items-start justify-center">
               <img
                 className="self-stretch h-10 relative max-w-full overflow-hidden shrink-0"

@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const ConsumerLandingPage = () => {
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
+    <div className="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
       <MainContent />
       <SectionWhyChooseUs1 />
       <SectionExploreBestPractitio />
