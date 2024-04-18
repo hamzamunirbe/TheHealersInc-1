@@ -3,7 +3,7 @@ import { Button } from "@mui/material";
 const PractitionerLandingPage = () => {
   return (
     <div className="w-full relative bg-gray-100 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal] text-left text-smi text-vendor-colors-triadic font-web-primary-h3-primary-dm-sans">
-      <header className="self-stretch h-[108px] bg-ghostwhite flex flex-row items-start justify-center py-6 px-5 box-border gap-[732.2px] top-[0] z-[99] sticky mq450:gap-[92px] mq750:gap-[183px] mq1225:gap-[366px]">
+      <header className="self-stretch h-[108px] bg-ghostwhite-100 flex flex-row items-start justify-center py-6 px-5 box-border gap-[732.2px] top-[0] z-[99] sticky mq450:gap-[92px] mq750:gap-[183px] mq1225:gap-[366px]">
         <div className="w-[251.8px] flex flex-col items-start justify-start pt-[5px] px-0 pb-0 box-border">
           <div className="self-stretch flex flex-row items-end justify-start gap-[13.2px]">
             <img
@@ -56,7 +56,7 @@ const PractitionerLandingPage = () => {
         </div>
       </header>
       <section className="self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-14 box-border max-w-full text-left text-smi text-vendor-colors-triadic font-web-primary-h3-primary-dm-sans mq750:pb-9 mq750:box-border">
-        <div className="flex-1 bg-ghostwhite flex flex-col items-center justify-start py-14 px-5 box-border max-w-full mq750:pt-9 mq750:pb-9 mq750:box-border">
+        <div className="flex-1 bg-ghostwhite-100 flex flex-col items-center justify-start py-14 px-5 box-border max-w-full mq750:pt-9 mq750:pb-9 mq750:box-border">
           <div className="w-[1240px] flex flex-row items-start justify-between max-w-full gap-[20px] mq1225:flex-wrap">
             <div className="w-[664px] overflow-hidden shrink-0 flex flex-col items-start justify-center py-[72.5px] px-0 box-border gap-[24px] min-w-[664px] max-w-full mq750:pt-[47px] mq750:pb-[47px] mq750:box-border mq750:min-w-full mq1225:flex-1">
               <div className="self-stretch flex flex-col items-start justify-center gap-[8px]">
@@ -109,7 +109,7 @@ const PractitionerLandingPage = () => {
           </h1>
         </div>
       </div>
-      <section className="self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-14 box-border max-w-full text-left text-[18px] text-gray-700 font-web-primary-h3-primary-dm-sans mq750:pb-9 mq750:box-border">
+      <section className="self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-14 box-border max-w-full text-left text-lg text-gray-700 font-web-primary-h3-primary-dm-sans mq750:pb-9 mq750:box-border">
         <div className="w-[1110px] flex flex-row items-end justify-center gap-[95px] max-w-full mq750:gap-[24px] mq1050:flex-wrap mq1225:gap-[47px]">
           <img
             className="w-[445px] relative rounded-3xs max-h-full object-cover max-w-full mq1050:flex-1"

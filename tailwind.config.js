@@ -13,6 +13,8 @@ module.exports = {
           "500": "rgba(255, 255, 255, 0.7)",
           "600": "rgba(255, 255, 255, 0)",
           "700": "rgba(22, 28, 45, 0.7)",
+          "800": "#18181b",
+          "900": "rgba(0, 0, 0, 0.25)",
         },
         "consumer-colors-primary-1": "#fce7cc",
         tomato: "#f64b4b",
@@ -23,7 +25,10 @@ module.exports = {
         "vendor-colors-primary-1": "#70fbfb",
         "blue-gray-900": "#0f172a",
         "vendor-colors-triadic": "#a4a404",
-        ghostwhite: "#f3f5f9",
+        ghostwhite: {
+          "100": "#f3f5f9",
+          "200": "#f4f1fc",
+        },
         "character-title-85": "rgba(0, 0, 0, 0.85)",
         "neutral-10": "#262626",
         "m3-sys-light-primary": "#6750a4",
@@ -44,8 +49,15 @@ module.exports = {
         "grey-grey-300": "#e0e0e0",
         "grey-grey-600": "#757575",
         "material-theme-source-primary": "#0b57d0",
-        gainsboro: "#d9d9d9",
+        gainsboro: {
+          "100": "#e8e8e8",
+          "200": "#d9d9d9",
+        },
         mediumblue: "#0f3dde",
+        "primary-6": "#1890ff",
+        "conditional-divider": "rgba(0, 0, 0, 0.06)",
+        "neutral-light-light": "#f8f9fe",
+        "neutral-dark-light": "#71727a",
       },
       spacing: {},
       fontFamily: {
@@ -54,11 +66,14 @@ module.exports = {
         "gilroy-bold": "Gilroy-Bold",
         "h5-medium": "Roboto",
         poppins: "Poppins",
+        "heading-h5": "Inter",
       },
       borderRadius: {
         "3xs": "10px",
         xl: "20px",
         "81xl": "100px",
+        "13xl": "32px",
+        "9xl": "28px",
       },
     },
     fontSize: {
@@ -77,9 +92,7 @@ module.exports = {
       "3xl": "22px",
       "10xl": "29px",
       "5xl": "24px",
-      "53xl": "72px",
-      "24xl": "43px",
-      "39xl": "58px",
+      lg: "18px",
       "41xl": "60px",
       "29xl": "48px",
       "13xl": "32px",
@@ -92,6 +105,9 @@ module.exports = {
     screens: {
       mq1225: {
         raw: "screen and (max-width: 1225px)",
+      },
+      lg: {
+        max: "1200px",
       },
       mq1125: {
         raw: "screen and (max-width: 1125px)",

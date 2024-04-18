@@ -9,7 +9,7 @@ const ConsumerSignUpEmailVer = () => {
             Name
           </div>
         </div>
-        <div className="self-stretch h-8 rounded-3xs box-border overflow-hidden shrink-0 border-[1px] border-solid border-gainsboro" />
+        <div className="self-stretch h-8 rounded-3xs box-border overflow-hidden shrink-0 border-[1px] border-solid border-gainsboro-200" />
       </div>
       <div className="w-[400px] flex flex-col items-start justify-start pt-[238px] px-0 pb-0 box-border min-w-[400px] max-w-full text-xs text-neutral-10 mq750:pt-[155px] mq750:box-border mq750:min-w-full mq1125:flex-1">
         <div className="self-stretch flex flex-col items-start justify-start gap-[32px] mq450:gap-[16px]">

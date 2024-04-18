@@ -149,7 +149,7 @@ const ConsumerSignUp = () => {
             >
               Sign up with Google
             </Button>
-            <div className="flex-1 rounded-[50px] box-border overflow-hidden flex flex-row items-start justify-start py-1.5 px-2.5 gap-[10px] min-w-[135px] border-[1px] border-solid border-gainsboro">
+            <div className="flex-1 rounded-[50px] box-border overflow-hidden flex flex-row items-start justify-start py-1.5 px-2.5 gap-[10px] min-w-[135px] border-[1px] border-solid border-gainsboro-200">
               <img
                 className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                 loading="lazy"

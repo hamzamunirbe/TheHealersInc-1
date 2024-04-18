@@ -13,6 +13,11 @@ import ConsumerForgotPassword from "./pages/ConsumerForgotPassword";
 import ConsumerResetPassword from "./pages/ConsumerResetPassword";
 import ConsumerSignUp from "./pages/ConsumerSignUp";
 import ConsumerSignUpEmailVer from "./pages/ConsumerSignUpEmailVer";
+import ConsumerPreferences from "./pages/ConsumerPreferences";
+import ConsumerPreferences1 from "./pages/ConsumerPreferences1";
+import ConsumerPreferences2 from "./pages/ConsumerPreferences2";
+import ConsumerPreferences3 from "./pages/ConsumerPreferences3";
+import ConsumerPreferences4 from "./pages/ConsumerPreferences4";
 
 function App() {
   const action = useNavigationType();
@@ -62,6 +67,26 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/consumer-preferences-01":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/consumer-preferences-02":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/consumer-preferences-03":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/consumer-preferences-04":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/consumer-preferences-05":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -99,6 +124,26 @@ function App() {
       <Route
         path="/consumer-sign-up-email-verification"
         element={<ConsumerSignUpEmailVer />}
+      />
+      <Route
+        path="/consumer-preferences-01"
+        element={<ConsumerPreferences />}
+      />
+      <Route
+        path="/consumer-preferences-02"
+        element={<ConsumerPreferences1 />}
+      />
+      <Route
+        path="/consumer-preferences-03"
+        element={<ConsumerPreferences2 />}
+      />
+      <Route
+        path="/consumer-preferences-04"
+        element={<ConsumerPreferences3 />}
+      />
+      <Route
+        path="/consumer-preferences-05"
+        element={<ConsumerPreferences4 />}
       />
     </Routes>
   );
