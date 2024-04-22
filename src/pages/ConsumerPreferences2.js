@@ -32,8 +32,8 @@ const ConsumerPreferences2 = () => {
 
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
-      <div className="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[75px] box-border gap-[80px] leading-[normal] tracking-[normal] text-center text-lg text-neutral-8 font-web-primary-h3-primary-dm-sans mq450:gap-[20px] mq750:gap-[40px]">
-        <header className="self-stretch bg-white shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] flex flex-row items-start justify-center py-[22px] px-5 gap-[704px] top-[0] z-[99] sticky border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq450:gap-[88px] mq750:gap-[176px]">
+      <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[75px] box-border gap-[80px] leading-[normal] tracking-[normal] text-center text-lg text-neutral-8 font-web-primary-h3-primary-dm-sans mq450:gap-[20px] mq750:gap-[40px]">
+        <header className="self-stretch shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] bg-neutral-1 flex flex-row items-start justify-center py-[22px] px-5 gap-[704px] top-[0] z-[99] sticky border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq450:gap-[88px] mq750:gap-[176px]">
           <div className="w-[236px] flex flex-col items-start justify-start pt-[7px] px-0 pb-0 box-border">
             <div className="self-stretch flex flex-row items-end justify-start gap-[12.4px]">
               <img
@@ -52,7 +52,7 @@ const ConsumerPreferences2 = () => {
               </div>
             </div>
           </div>
-          <div className="w-[260px] rounded-13xl bg-white shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] overflow-hidden shrink-0 flex flex-row items-center justify-start py-2.5 px-4 box-border gap-[20px]">
+          <div className="w-[260px] shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-13xl bg-neutral-1 overflow-hidden shrink-0 flex flex-row items-center justify-start py-2.5 px-4 box-border gap-[20px]">
             <div className="flex flex-row items-center justify-start">
               <img
                 className="h-8 w-8 relative overflow-hidden shrink-0"
@@ -116,7 +116,7 @@ const ConsumerPreferences2 = () => {
           <div className="w-[628px] flex flex-row items-start justify-center gap-[56px] max-w-full mq750:flex-wrap mq750:gap-[28px]">
             <div className="w-[180px] flex flex-col items-start justify-start gap-[24px] min-w-[180px] mq750:flex-1">
               <div
-                className="rounded-2xl bg-white shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] flex flex-col items-start justify-start py-[34px] px-[57px] gap-[16px] cursor-pointer"
+                className="shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-2xl bg-neutral-1 flex flex-col items-start justify-start py-[34px] px-[57px] gap-[16px] cursor-pointer"
                 onClick={onPreferencesTileContainerClick}
               >
                 <div className="flex flex-row items-start justify-start py-0 px-[3px]">
@@ -131,9 +131,9 @@ const ConsumerPreferences2 = () => {
                   Gender
                 </b>
               </div>
-              <div className="rounded-2xl bg-royalblue flex flex-col items-end justify-start pt-2.5 px-2.5 pb-[34px] gap-[16px] text-white">
+              <div className="rounded-2xl bg-royalblue flex flex-col items-end justify-start pt-2.5 px-2.5 pb-[34px] gap-[16px] text-neutral-1">
                 <div className="w-[110px] flex flex-col items-end justify-start gap-[10px]">
-                  <div className="w-3.5 h-3.5 relative rounded-[50%] bg-white" />
+                  <div className="w-3.5 h-3.5 relative rounded-[50%] bg-neutral-1" />
                   <div className="self-stretch flex flex-row items-start justify-start">
                     <img
                       className="h-[60px] w-[60px] relative overflow-hidden shrink-0"
@@ -149,7 +149,7 @@ const ConsumerPreferences2 = () => {
                 </div>
               </div>
               <div
-                className="rounded-2xl bg-white shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] flex flex-col items-start justify-start py-[34px] px-[23px] gap-[16px] cursor-pointer"
+                className="shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-2xl bg-neutral-1 flex flex-col items-start justify-start py-[34px] px-[23px] gap-[16px] cursor-pointer"
                 onClick={onPreferencesTileContainer2Click}
               >
                 <div className="flex flex-row items-start justify-start py-0 px-[37px]">
@@ -162,7 +162,7 @@ const ConsumerPreferences2 = () => {
                 <b className="relative leading-[28px]">Physical Profile</b>
               </div>
               <div
-                className="self-stretch rounded-2xl bg-white shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] flex flex-col items-start justify-start py-[34px] px-[23px] gap-[16px] cursor-pointer"
+                className="self-stretch shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-2xl bg-neutral-1 flex flex-col items-start justify-start py-[34px] px-[23px] gap-[16px] cursor-pointer"
                 onClick={onPreferencesTileContainer3Click}
               >
                 <div className="flex flex-row items-start justify-start py-0 px-[37px]">

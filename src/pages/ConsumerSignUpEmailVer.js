@@ -1,8 +1,14 @@
-import { Button } from "@mui/material";
+import {
+  TextField,
+  InputAdornment,
+  Icon,
+  IconButton,
+  Button,
+} from "@mui/material";
 
 const ConsumerSignUpEmailVer = () => {
   return (
-    <div className="w-full relative bg-white overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[197px] leading-[normal] tracking-[normal] text-left text-smi text-m3-black font-web-primary-h3-primary-dm-sans mq750:gap-[98px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[49px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
+    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[197px] tracking-[normal] leading-[normal] text-left text-smi text-m3-black font-web-primary-h3-primary-dm-sans mq750:gap-[98px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[49px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
       <div className="h-[57.5px] w-[404px] hidden flex-col items-start justify-start max-w-full z-[0] font-poppins">
         <div className="w-10 flex flex-row items-start justify-start">
           <div className="h-5 flex-1 relative font-medium inline-block">
@@ -25,9 +31,9 @@ const ConsumerSignUpEmailVer = () => {
           </div>
           <div className="self-stretch flex flex-row items-start justify-between gap-[20px] text-text-secondary mq450:flex-wrap">
             <div className="w-10 flex flex-row items-start justify-start">
-              <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px]">
+              <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px] min-w-[24px]">
                 <div className="w-0 h-[18px] relative leading-[18px] flex items-center" />
-                <div className="self-stretch flex flex-row items-start justify-start text-center text-base text-text-primary">
+                <div className="self-stretch flex flex-row items-start justify-start text-base text-m3-ref-neutral-neutral20-200">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                     <div className="hidden flex-row items-start justify-start">
                       <img
@@ -38,8 +44,15 @@ const ConsumerSignUpEmailVer = () => {
                     </div>
                   </div>
                   <div className="h-6 w-0 relative hidden" />
-                  <div className="flex-1 relative leading-[24px]">1</div>
-                  <div className="h-12 w-[110px] relative leading-[24px] text-m3-ref-neutral-neutral20 text-left hidden whitespace-nowrap">
+                  <TextField
+                    className="[border:none] bg-[transparent] flex-1 relative min-w-[24px] p-0"
+                    color="primary"
+                    placeholder="1"
+                    variant="standard"
+                    type="number"
+                    sx={{ "& .MuiInputBase-root": { height: "24px" } }}
+                  />
+                  <div className="h-12 w-[110px] relative leading-[24px] hidden whitespace-nowrap">
                     user@email.com
                   </div>
                   <div className="h-px w-6 hidden flex-row items-center justify-start">
@@ -62,7 +75,7 @@ const ConsumerSignUpEmailVer = () => {
             <div className="w-10 flex flex-row items-start justify-start">
               <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px]">
                 <div className="w-0 h-[18px] relative leading-[18px] flex items-center" />
-                <div className="self-stretch flex flex-row items-start justify-start text-center text-base text-text-primary">
+                <div className="self-stretch flex flex-row items-start justify-start text-base text-m3-ref-neutral-neutral20-200">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                     <div className="hidden flex-row items-start justify-start">
                       <img
@@ -73,8 +86,15 @@ const ConsumerSignUpEmailVer = () => {
                     </div>
                   </div>
                   <div className="h-6 w-0 relative hidden" />
-                  <div className="flex-1 relative leading-[24px]">2</div>
-                  <div className="h-12 w-[110px] relative leading-[24px] text-m3-ref-neutral-neutral20 text-left hidden whitespace-nowrap">
+                  <TextField
+                    className="[border:none] bg-[transparent] flex-1 relative min-w-[24px] p-0"
+                    color="primary"
+                    placeholder="2"
+                    variant="standard"
+                    type="number"
+                    sx={{ "& .MuiInputBase-root": { height: "24px" } }}
+                  />
+                  <div className="h-12 w-[110px] relative leading-[24px] hidden whitespace-nowrap">
                     user@email.com
                   </div>
                   <div className="h-px w-6 hidden flex-row items-center justify-start">
@@ -97,7 +117,7 @@ const ConsumerSignUpEmailVer = () => {
             <div className="w-10 flex flex-row items-start justify-start">
               <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px]">
                 <div className="w-0 h-[18px] relative leading-[18px] flex items-center" />
-                <div className="self-stretch flex flex-row items-start justify-start text-center text-base text-text-primary">
+                <div className="self-stretch flex flex-row items-start justify-start text-base text-m3-ref-neutral-neutral20-200">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                     <div className="hidden flex-row items-start justify-start">
                       <img
@@ -108,8 +128,15 @@ const ConsumerSignUpEmailVer = () => {
                     </div>
                   </div>
                   <div className="h-6 w-0 relative hidden" />
-                  <div className="flex-1 relative leading-[24px]">3</div>
-                  <div className="h-12 w-[110px] relative leading-[24px] text-m3-ref-neutral-neutral20 text-left hidden whitespace-nowrap">
+                  <TextField
+                    className="[border:none] bg-[transparent] flex-1 relative min-w-[24px] p-0"
+                    color="primary"
+                    placeholder="3"
+                    variant="standard"
+                    type="number"
+                    sx={{ "& .MuiInputBase-root": { height: "24px" } }}
+                  />
+                  <div className="h-12 w-[110px] relative leading-[24px] hidden whitespace-nowrap">
                     user@email.com
                   </div>
                   <div className="h-px w-6 hidden flex-row items-center justify-start">
@@ -132,7 +159,7 @@ const ConsumerSignUpEmailVer = () => {
             <div className="w-10 flex flex-row items-start justify-start">
               <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px]">
                 <div className="w-0 h-[18px] relative leading-[18px] flex items-center" />
-                <div className="self-stretch flex flex-row items-start justify-start text-center text-base text-text-primary">
+                <div className="self-stretch flex flex-row items-start justify-start text-base text-m3-ref-neutral-neutral20-200">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                     <div className="hidden flex-row items-start justify-start">
                       <img
@@ -143,8 +170,15 @@ const ConsumerSignUpEmailVer = () => {
                     </div>
                   </div>
                   <div className="h-6 w-0 relative hidden" />
-                  <div className="flex-1 relative leading-[24px]">4</div>
-                  <div className="h-12 w-[110px] relative leading-[24px] text-m3-ref-neutral-neutral20 text-left hidden whitespace-nowrap">
+                  <TextField
+                    className="[border:none] bg-[transparent] flex-1 relative min-w-[24px] p-0"
+                    color="primary"
+                    placeholder="4"
+                    variant="standard"
+                    type="number"
+                    sx={{ "& .MuiInputBase-root": { height: "24px" } }}
+                  />
+                  <div className="h-12 w-[110px] relative leading-[24px] hidden whitespace-nowrap">
                     user@email.com
                   </div>
                   <div className="h-px w-6 hidden flex-row items-center justify-start">
@@ -167,7 +201,7 @@ const ConsumerSignUpEmailVer = () => {
             <div className="w-10 flex flex-row items-start justify-start">
               <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px]">
                 <div className="w-0 h-[18px] relative leading-[18px] flex items-center" />
-                <div className="self-stretch flex flex-row items-start justify-start text-center text-base text-text-primary">
+                <div className="self-stretch flex flex-row items-start justify-start text-base text-m3-ref-neutral-neutral20-200">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                     <div className="hidden flex-row items-start justify-start">
                       <img
@@ -178,8 +212,15 @@ const ConsumerSignUpEmailVer = () => {
                     </div>
                   </div>
                   <div className="h-6 w-0 relative hidden" />
-                  <div className="flex-1 relative leading-[24px]">5</div>
-                  <div className="h-12 w-[110px] relative leading-[24px] text-m3-ref-neutral-neutral20 text-left hidden whitespace-nowrap">
+                  <TextField
+                    className="[border:none] bg-[transparent] flex-1 relative min-w-[24px] p-0"
+                    color="primary"
+                    placeholder="5"
+                    variant="standard"
+                    type="number"
+                    sx={{ "& .MuiInputBase-root": { height: "24px" } }}
+                  />
+                  <div className="h-12 w-[110px] relative leading-[24px] hidden whitespace-nowrap">
                     user@email.com
                   </div>
                   <div className="h-px w-6 hidden flex-row items-center justify-start">
@@ -202,7 +243,7 @@ const ConsumerSignUpEmailVer = () => {
             <div className="w-10 flex flex-row items-start justify-start">
               <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px]">
                 <div className="w-0 h-[18px] relative leading-[18px] flex items-center" />
-                <div className="self-stretch flex flex-row items-start justify-start text-center text-base text-text-primary">
+                <div className="self-stretch flex flex-row items-start justify-start text-base text-m3-ref-neutral-neutral20-200">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                     <div className="hidden flex-row items-start justify-start">
                       <img
@@ -213,8 +254,15 @@ const ConsumerSignUpEmailVer = () => {
                     </div>
                   </div>
                   <div className="h-6 w-0 relative hidden" />
-                  <div className="flex-1 relative leading-[24px]">6</div>
-                  <div className="h-12 w-[110px] relative leading-[24px] text-m3-ref-neutral-neutral20 text-left hidden whitespace-nowrap">
+                  <TextField
+                    className="[border:none] bg-[transparent] flex-1 relative min-w-[24px] p-0"
+                    color="primary"
+                    placeholder="6"
+                    variant="standard"
+                    type="number"
+                    sx={{ "& .MuiInputBase-root": { height: "24px" } }}
+                  />
+                  <div className="h-12 w-[110px] relative leading-[24px] hidden whitespace-nowrap">
                     user@email.com
                   </div>
                   <div className="h-px w-6 hidden flex-row items-center justify-start">
@@ -238,19 +286,20 @@ const ConsumerSignUpEmailVer = () => {
           <div className="self-stretch flex flex-row items-start justify-end text-center">
             <div className="flex flex-row items-start justify-start gap-[2px]">
               <div className="relative leading-[18px]">{`Didn’t receive the code? `}</div>
-              <div className="relative [text-decoration:underline] leading-[18px] text-mediumblue inline-block min-w-[41px]">
+              <a className="[text-decoration:underline] relative leading-[18px] text-mediumblue inline-block min-w-[41px]">
                 Resend
-              </div>
+              </a>
             </div>
           </div>
           <Button
-            className="self-stretch h-[60px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+            className="self-stretch h-[60px] shadow-[0px_2px_0px_rgba(0,_0,_0,_0.04)] mq450:pl-5 mq450:pr-5 mq450:box-border"
             variant="contained"
             sx={{
               textTransform: "none",
               color: "#fff",
               fontSize: "18",
               background: "#f28500",
+              border: "#f28500 solid 1px",
               borderRadius: "4px",
               "&:hover": { background: "#f28500" },
               height: 60,
@@ -259,7 +308,7 @@ const ConsumerSignUpEmailVer = () => {
             Verify Email
           </Button>
           <Button
-            className="w-[167px] h-[42px]"
+            className="w-[167px] h-[42px] shadow-[0px_2px_0px_rgba(0,_0,_0,_0.02)]"
             startIcon={<img width="16px" height="16px" src="/wrapper-1.png" />}
             variant="contained"
             sx={{
@@ -267,6 +316,7 @@ const ConsumerSignUpEmailVer = () => {
               color: "#434343",
               fontSize: "14",
               background: "#fff",
+              border: "#d9d9d9 solid 1px",
               borderRadius: "4px",
               "&:hover": { background: "#fff" },
               width: 167,

@@ -2,8 +2,8 @@ import { Button } from "@mui/material";
 
 const FirstLandingPage = () => {
   return (
-    <div className="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
-      <section className="self-stretch bg-gray-300 flex flex-col items-start justify-start pt-0 px-0 pb-[205px] box-border gap-[109px] max-w-full text-center text-[72px] text-white font-web-primary-h3-primary-dm-sans mq450:gap-[27px] mq750:gap-[54px] mq750:pb-[133px] mq750:box-border">
+    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
+      <section className="self-stretch bg-gray-300 flex flex-col items-start justify-start pt-0 px-0 pb-[205px] box-border gap-[109px] max-w-full text-center text-[72px] text-neutral-1 font-web-primary-h3-primary-dm-sans mq450:gap-[27px] mq750:gap-[54px] mq750:pb-[133px] mq750:box-border">
         <header className="self-stretch flex flex-row items-start justify-start py-6 px-[100px] top-[0] z-[99] sticky mq450:gap-[101px] mq450:pl-5 mq450:pr-5 mq450:box-border">
           <div className="w-60 flex flex-row items-end justify-start gap-[12.6px]">
             <img
@@ -36,7 +36,7 @@ const FirstLandingPage = () => {
           </div>
         </div>
       </section>
-      <section className="self-stretch flex flex-row items-start justify-center max-w-full text-left text-5xl text-white font-web-primary-h3-primary-dm-sans">
+      <section className="self-stretch flex flex-row items-start justify-center max-w-full text-left text-5xl text-neutral-1 font-web-primary-h3-primary-dm-sans">
         <div className="h-[500px] flex-1 relative max-w-full">
           <div className="absolute top-[0px] left-[0px] w-[720px] overflow-hidden flex flex-col items-start justify-start pt-14 px-[100px] pb-[287px] box-border bg-[url('/public/divpractitionernavigation@3x.png')] bg-cover bg-no-repeat bg-[top] min-h-[500px] max-w-full">
             <div className="self-stretch flex flex-col items-start justify-start gap-[24px]">
@@ -45,13 +45,14 @@ const FirstLandingPage = () => {
                 wellness services to a wide audience.
               </h3>
               <Button
-                className="w-[206px] h-10"
+                className="w-[206px] h-10 shadow-[0px_2px_0px_rgba(0,_0,_0,_0.04)]"
                 variant="contained"
                 sx={{
                   textTransform: "none",
                   color: "#fff",
                   fontSize: "18",
                   background: "#e08e2b",
+                  border: "#e08e2b solid 1px",
                   borderRadius: "4px",
                   "&:hover": { background: "#e08e2b" },
                   width: 206,
@@ -69,13 +70,14 @@ const FirstLandingPage = () => {
                 our trusted providers to enhance your well-being.
               </h3>
               <Button
-                className="w-[181px] h-10"
+                className="w-[181px] h-10 shadow-[0px_2px_0px_rgba(0,_0,_0,_0.04)]"
                 variant="contained"
                 sx={{
                   textTransform: "none",
                   color: "#fff",
                   fontSize: "18",
                   background: "#e08e2b",
+                  border: "#e08e2b solid 1px",
                   borderRadius: "4px",
                   "&:hover": { background: "#e08e2b" },
                   width: 181,
@@ -186,9 +188,9 @@ const FirstLandingPage = () => {
             it easy to prioritize your well-being, no matter how busy life gets.
           </div>
         </div>
-        <div className="w-[243px] flex flex-col items-start justify-start pt-[39.5px] px-0 pb-0 box-border min-w-[243px] text-lgi text-m3-black font-gilroy-bold mq1225:flex-1">
+        <div className="w-[243px] flex flex-col items-start justify-start pt-[39.5px] px-0 pb-0 box-border min-w-[243px] text-lgi text-m3-black mq1225:flex-1">
           <div className="self-stretch flex flex-col items-start justify-start gap-[38px]">
-            <div className="rounded-2xl bg-white flex flex-row items-start justify-start p-4 gap-[16px]">
+            <div className="rounded-2xl bg-neutral-1 flex flex-row items-start justify-start p-4 gap-[16px]">
               <div className="flex flex-row items-start justify-start py-1 px-0">
                 <div className="h-4 w-4 relative rounded-[50%] bg-lightcoral" />
               </div>
@@ -197,7 +199,7 @@ const FirstLandingPage = () => {
                 <p className="m-0">Simple</p>
               </div>
             </div>
-            <div className="self-stretch flex flex-row items-start justify-end text-center text-white">
+            <div className="self-stretch flex flex-row items-start justify-end text-center text-neutral-1">
               <div className="w-[200px] flex flex-row items-start justify-start relative">
                 <div className="h-[530px] w-[409.1px] absolute !m-[0] top-[-242px] right-[-251px]">
                   <div className="absolute top-[0px] left-[234.1px] rounded-3xs bg-orange w-[175px] h-[216px] mix-blend-normal" />
@@ -233,7 +235,7 @@ const FirstLandingPage = () => {
           </div>
         </div>
       </section>
-      <footer className="self-stretch bg-white flex flex-col items-center justify-start py-10 px-5 box-border gap-[32px] max-w-full text-left text-mid text-gray-200 font-web-primary-h3-primary-dm-sans mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq750:gap-[16px]">
+      <footer className="self-stretch bg-neutral-1 flex flex-col items-center justify-start py-10 px-5 box-border gap-[32px] max-w-full text-left text-mid text-gray-200 font-web-primary-h3-primary-dm-sans mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq750:gap-[16px]">
         <div className="flex flex-row items-start justify-start gap-[61.6px] max-w-full mq1225:flex-wrap mq450:gap-[15px] mq750:gap-[31px]">
           <div className="w-64 overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[32px] text-mini text-gray-700 mq450:gap-[16px]">
             <div className="w-60 flex flex-row items-end justify-start gap-[12.6px]">
@@ -309,7 +311,7 @@ const FirstLandingPage = () => {
               Cookie Preferences
             </div>
           </div>
-          <div className="w-[135px] flex flex-col items-start justify-start gap-[16px] text-4xs-4 text-white font-open-sans">
+          <div className="w-[135px] flex flex-col items-start justify-start gap-[16px] text-4xs-4 text-neutral-1 font-open-sans">
             <div className="self-stretch flex flex-col items-start justify-center">
               <img
                 className="self-stretch h-10 relative max-w-full overflow-hidden shrink-0"

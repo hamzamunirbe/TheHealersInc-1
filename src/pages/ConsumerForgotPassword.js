@@ -1,8 +1,14 @@
-import { Button } from "@mui/material";
+import {
+  TextField,
+  InputAdornment,
+  Icon,
+  IconButton,
+  Button,
+} from "@mui/material";
 
 const ConsumerForgotPassword = () => {
   return (
-    <div className="w-full relative bg-white overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[193px] leading-[normal] tracking-[normal] text-left text-xl text-neutral-10 font-web-primary-h3-primary-dm-sans mq750:gap-[96px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[48px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
+    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[193px] tracking-[normal] leading-[normal] text-left text-xl text-neutral-10 font-web-primary-h3-primary-dm-sans mq750:gap-[96px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[48px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
       <div className="w-[404px] flex flex-col items-start justify-start pt-[275px] px-0 pb-0 box-border min-w-[404px] max-w-full mq750:pt-[179px] mq750:box-border mq750:min-w-full mq1125:flex-1">
         <div className="self-stretch flex flex-col items-start justify-start gap-[32px] max-w-full mq450:gap-[16px]">
           <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
@@ -14,32 +20,33 @@ const ConsumerForgotPassword = () => {
               to reset your password.
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-start max-w-full text-xs text-text-secondary">
-            <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px] max-w-full">
-              <div className="relative leading-[18px] inline-block min-w-[30px]">
-                Email
-              </div>
-              <input
-                className="w-full [border:none] [outline:none] bg-[transparent] self-stretch h-6 flex flex-row items-start justify-start font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20 min-w-[242px]"
-                placeholder="user@email.com"
-                type="text"
-              />
-              <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
-            </div>
-            <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+          <div className="self-stretch flex flex-row items-start justify-start max-w-full text-xs text-text-secondary font-h5-medium">
+            <TextField
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[242px] max-w-full"
+              color="primary"
+              label="Email"
+              placeholder="user@email.com"
+              required={true}
+              fullWidth={true}
+              variant="standard"
+              type="email"
+              sx={{ "& .MuiInputBase-root": { height: "53px" } }}
+            />
+            <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
               <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                 Helper text
               </div>
             </div>
           </div>
           <Button
-            className="self-stretch h-[60px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+            className="self-stretch h-[60px] shadow-[0px_2px_0px_rgba(0,_0,_0,_0.04)] mq450:pl-5 mq450:pr-5 mq450:box-border"
             variant="contained"
             sx={{
               textTransform: "none",
               color: "#fff",
               fontSize: "18",
               background: "#f28500",
+              border: "#f28500 solid 1px",
               borderRadius: "4px",
               "&:hover": { background: "#f28500" },
               height: 60,
@@ -48,7 +55,7 @@ const ConsumerForgotPassword = () => {
             Submit
           </Button>
           <Button
-            className="w-[152px] h-[42px]"
+            className="w-[152px] h-[42px] shadow-[0px_2px_0px_rgba(0,_0,_0,_0.02)]"
             startIcon={<img width="16px" height="16px" src="/wrapper-1.png" />}
             variant="contained"
             sx={{
@@ -56,6 +63,7 @@ const ConsumerForgotPassword = () => {
               color: "#434343",
               fontSize: "14",
               background: "#fff",
+              border: "#d9d9d9 solid 1px",
               borderRadius: "4px",
               "&:hover": { background: "#fff" },
               width: 152,

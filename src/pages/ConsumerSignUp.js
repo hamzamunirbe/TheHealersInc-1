@@ -1,25 +1,35 @@
-import { Button } from "@mui/material";
+import { useState } from "react";
+import {
+  TextField,
+  InputAdornment,
+  Icon,
+  IconButton,
+  Button,
+} from "@mui/material";
 
 const ConsumerSignUp = () => {
+  const [showPassword, setShowPassword] = useState(false);
+  const handleShowPasswordClick = () => {
+    setShowPassword(!showPassword);
+  };
   return (
-    <div className="w-full relative bg-white overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[165px] leading-[normal] tracking-[normal] text-left text-29xl text-m3-black font-web-primary-h3-primary-dm-sans mq450:gap-[41px] mq450:pl-5 mq450:box-border mq750:gap-[82px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq1125:flex-wrap">
+    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[165px] tracking-[normal] leading-[normal] text-left text-29xl text-m3-black font-web-primary-h3-primary-dm-sans mq450:gap-[41px] mq450:pl-5 mq450:box-border mq750:gap-[82px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq1125:flex-wrap">
       <div className="w-[432px] flex flex-col items-start justify-start pt-[78.6px] px-0 pb-0 box-border min-w-[432px] max-w-full mq450:pt-[33px] mq450:box-border mq750:min-w-full mq1050:pt-[51px] mq1050:box-border mq1125:flex-1">
         <form className="m-0 self-stretch flex flex-col items-start justify-start gap-[32px] max-w-full mq450:gap-[16px]">
           <div className="relative text-base leading-[24px] font-web-primary-h3-primary-dm-sans text-m3-black text-left inline-block max-w-full">
             Enter your credentials to create an account
           </div>
           <div className="self-stretch flex flex-row items-start justify-start max-w-full">
-            <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px] max-w-full">
-              <div className="relative text-xs leading-[18px] font-web-primary-h3-primary-dm-sans text-text-secondary text-left inline-block min-w-[60px]">
-                First Name
-              </div>
-              <input
-                className="w-full [border:none] [outline:none] bg-[transparent] self-stretch h-6 flex flex-row items-start justify-start font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20 min-w-[250px]"
-                placeholder="John"
-                type="text"
-              />
-              <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-m3-ref-neutral-neutral20" />
-            </div>
+            <TextField
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
+              color="primary"
+              label="First Name"
+              placeholder="John"
+              required={true}
+              fullWidth={true}
+              variant="standard"
+              sx={{ "& .MuiInputBase-root": { height: "53px" } }}
+            />
             <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
               <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-text-secondary text-left">
                 Helper text
@@ -27,17 +37,15 @@ const ConsumerSignUp = () => {
             </div>
           </div>
           <div className="self-stretch flex flex-row items-start justify-start max-w-full">
-            <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px] max-w-full">
-              <div className="relative text-xs leading-[18px] font-web-primary-h3-primary-dm-sans text-text-secondary text-left inline-block min-w-[59px]">
-                Last Name
-              </div>
-              <input
-                className="w-full [border:none] [outline:none] bg-[transparent] self-stretch h-6 flex flex-row items-start justify-start font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20 min-w-[250px]"
-                placeholder="Adams"
-                type="text"
-              />
-              <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-m3-ref-neutral-neutral20" />
-            </div>
+            <TextField
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
+              color="primary"
+              label="Last Name"
+              placeholder="Adams"
+              fullWidth={true}
+              variant="standard"
+              sx={{ "& .MuiInputBase-root": { height: "53px" } }}
+            />
             <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
               <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-text-secondary text-left">
                 Helper text
@@ -45,17 +53,17 @@ const ConsumerSignUp = () => {
             </div>
           </div>
           <div className="self-stretch flex flex-row items-start justify-start max-w-full">
-            <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px] max-w-full">
-              <div className="relative text-xs leading-[18px] font-web-primary-h3-primary-dm-sans text-text-secondary text-left inline-block min-w-[30px]">
-                Email
-              </div>
-              <input
-                className="w-full [border:none] [outline:none] bg-[transparent] self-stretch h-6 flex flex-row items-start justify-start font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20 min-w-[250px]"
-                placeholder="user@email.com"
-                type="text"
-              />
-              <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
-            </div>
+            <TextField
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
+              color="primary"
+              label="Email"
+              placeholder="user@email.com"
+              required={true}
+              fullWidth={true}
+              variant="standard"
+              type="email"
+              sx={{ "& .MuiInputBase-root": { height: "53px" } }}
+            />
             <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
               <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-text-secondary text-left">
                 Helper text
@@ -63,40 +71,30 @@ const ConsumerSignUp = () => {
             </div>
           </div>
           <div className="self-stretch flex flex-row items-start justify-start max-w-full">
-            <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px] max-w-full mq450:h-auto">
-              <div className="relative text-xs leading-[18px] font-web-primary-h3-primary-dm-sans text-text-secondary text-left inline-block min-w-[53px]">
-                Password
-              </div>
-              <div className="self-stretch flex flex-row items-start justify-start max-w-full [row-gap:20px] mq450:flex-wrap">
-                <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
-                  <div className="hidden flex-row items-start justify-start">
-                    <img
-                      className="h-6 w-6 relative overflow-hidden shrink-0"
-                      alt=""
-                      src="/starfilled-1.svg"
-                    />
-                  </div>
-                </div>
-                <div className="h-6 w-0 relative hidden" />
-                <div className="self-stretch w-[220px] relative text-base tracking-[0.15px] leading-[24px] font-h5-medium text-text-primary text-left hidden" />
-                <input
-                  className="w-[calc(100%_-_24px)] [border:none] [outline:none] font-web-primary-h3-primary-dm-sans text-base bg-[transparent] h-6 flex-1 relative leading-[24px] text-m3-ref-neutral-neutral20 text-left inline-block min-w-[265px] max-w-full p-0"
-                  placeholder="************"
-                  type="text"
-                />
-                <div className="flex flex-col items-start justify-start pt-[11.5px] px-0 pb-0">
-                  <div className="w-6 h-px flex flex-row items-start justify-start relative">
-                    <img
-                      className="h-6 w-full absolute !m-[0] top-[calc(50%_-_12px)] right-[0px] left-[0px] max-w-full overflow-hidden"
-                      alt=""
-                      src="/removeredeyefilled.svg"
-                    />
-                  </div>
-                </div>
-                <div className="h-0 w-6 relative hidden" />
-              </div>
-              <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
-            </div>
+            <TextField
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full mq450:h-auto"
+              color="primary"
+              label="Password"
+              required={true}
+              fullWidth={true}
+              variant="standard"
+              type={showPassword ? "text" : "password"}
+              InputProps={{
+                endAdornment: (
+                  <InputAdornment position="end">
+                    <IconButton
+                      onClick={handleShowPasswordClick}
+                      aria-label="toggle password visibility"
+                    >
+                      <Icon>
+                        {showPassword ? "visibility_off" : "visibility"}
+                      </Icon>
+                    </IconButton>
+                  </InputAdornment>
+                ),
+              }}
+              sx={{ "& .MuiInputBase-root": { height: "53px" } }}
+            />
             <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
               <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-text-secondary text-left">
                 Helper text
@@ -104,13 +102,14 @@ const ConsumerSignUp = () => {
             </div>
           </div>
           <Button
-            className="self-stretch h-[60px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+            className="self-stretch h-[60px] shadow-[0px_2px_0px_rgba(0,_0,_0,_0.04)] mq450:pl-5 mq450:pr-5 mq450:box-border"
             variant="contained"
             sx={{
               textTransform: "none",
               color: "#fff",
               fontSize: "18",
               background: "#f28500",
+              border: "#f28500 solid 1px",
               borderRadius: "4px",
               "&:hover": { background: "#f28500" },
               height: 60,
@@ -167,12 +166,12 @@ const ConsumerSignUp = () => {
             <div className="relative text-sm leading-[22px] font-web-primary-h3-primary-dm-sans text-gray-200 text-left whitespace-nowrap">
               Don’t have an account?
             </div>
-            <div className="relative text-sm [text-decoration:underline] leading-[22px] font-semibold font-web-primary-h3-primary-dm-sans text-material-theme-source-primary text-left inline-block min-w-[45px] whitespace-nowrap">
+            <a className="[text-decoration:underline] relative text-sm leading-[22px] font-semibold font-web-primary-h3-primary-dm-sans text-material-theme-source-primary text-left inline-block min-w-[45px] whitespace-nowrap">
               Sign In
-            </div>
+            </a>
           </div>
           <Button
-            className="w-[154px] h-[42px]"
+            className="w-[154px] h-[42px] shadow-[0px_2px_0px_rgba(0,_0,_0,_0.02)]"
             startIcon={<img width="16px" height="16px" src="/wrapper-1.png" />}
             variant="contained"
             sx={{
@@ -180,6 +179,7 @@ const ConsumerSignUp = () => {
               color: "#434343",
               fontSize: "14",
               background: "#fff",
+              border: "#d9d9d9 solid 1px",
               borderRadius: "4px",
               "&:hover": { background: "#fff" },
               width: 154,

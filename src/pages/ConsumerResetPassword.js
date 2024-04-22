@@ -1,8 +1,19 @@
-import { Button } from "@mui/material";
+import { useState } from "react";
+import {
+  TextField,
+  InputAdornment,
+  Icon,
+  IconButton,
+  Button,
+} from "@mui/material";
 
 const ConsumerResetPassword = () => {
+  const [showPassword, setShowPassword] = useState(false);
+  const handleShowPasswordClick = () => {
+    setShowPassword(!showPassword);
+  };
   return (
-    <div className="w-full relative bg-white overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[197px] leading-[normal] tracking-[normal] text-left text-xs text-text-secondary font-web-primary-h3-primary-dm-sans mq750:gap-[98px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[49px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
+    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[197px] tracking-[normal] leading-[normal] text-left text-xs text-text-secondary font-web-primary-h3-primary-dm-sans mq750:gap-[98px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[49px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
       <div className="h-2 w-2 relative overflow-hidden shrink-0 hidden z-[0]" />
       <div className="w-[400px] flex flex-col items-start justify-start pt-[62.5px] px-0 pb-0 box-border min-w-[400px] max-w-full mq1050:pt-[41px] mq1050:box-border mq750:min-w-full mq450:pt-[27px] mq450:box-border mq1125:flex-1">
         <div className="self-stretch flex flex-col items-end justify-start gap-[32.3px] max-w-full mq450:gap-[16px]">
@@ -18,9 +29,9 @@ const ConsumerResetPassword = () => {
           </div>
           <div className="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap">
             <div className="w-10 flex flex-row items-start justify-start">
-              <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px]">
+              <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px] min-w-[24px]">
                 <div className="w-0 h-[18px] relative leading-[18px] flex items-center" />
-                <div className="self-stretch flex flex-row items-start justify-start text-center text-base text-text-primary">
+                <div className="self-stretch flex flex-row items-start justify-start text-base text-m3-ref-neutral-neutral20-200">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                     <div className="hidden flex-row items-start justify-start">
                       <img
@@ -31,8 +42,15 @@ const ConsumerResetPassword = () => {
                     </div>
                   </div>
                   <div className="h-6 w-0 relative hidden" />
-                  <div className="flex-1 relative leading-[24px]">1</div>
-                  <div className="h-12 w-[110px] relative leading-[24px] text-m3-ref-neutral-neutral20 text-left hidden whitespace-nowrap">
+                  <TextField
+                    className="[border:none] bg-[transparent] flex-1 relative min-w-[24px] p-0"
+                    color="primary"
+                    placeholder="1"
+                    variant="standard"
+                    type="number"
+                    sx={{ "& .MuiInputBase-root": { height: "24px" } }}
+                  />
+                  <div className="h-12 w-[110px] relative leading-[24px] hidden whitespace-nowrap">
                     user@email.com
                   </div>
                   <div className="h-px w-6 hidden flex-row items-center justify-start">
@@ -55,7 +73,7 @@ const ConsumerResetPassword = () => {
             <div className="w-10 flex flex-row items-start justify-start">
               <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px]">
                 <div className="w-0 h-[18px] relative leading-[18px] flex items-center" />
-                <div className="self-stretch flex flex-row items-start justify-start text-center text-base text-text-primary">
+                <div className="self-stretch flex flex-row items-start justify-start text-base text-m3-ref-neutral-neutral20-200">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                     <div className="hidden flex-row items-start justify-start">
                       <img
@@ -66,8 +84,15 @@ const ConsumerResetPassword = () => {
                     </div>
                   </div>
                   <div className="h-6 w-0 relative hidden" />
-                  <div className="flex-1 relative leading-[24px]">2</div>
-                  <div className="h-12 w-[110px] relative leading-[24px] text-m3-ref-neutral-neutral20 text-left hidden whitespace-nowrap">
+                  <TextField
+                    className="[border:none] bg-[transparent] flex-1 relative min-w-[24px] p-0"
+                    color="primary"
+                    placeholder="2"
+                    variant="standard"
+                    type="number"
+                    sx={{ "& .MuiInputBase-root": { height: "24px" } }}
+                  />
+                  <div className="h-12 w-[110px] relative leading-[24px] hidden whitespace-nowrap">
                     user@email.com
                   </div>
                   <div className="h-px w-6 hidden flex-row items-center justify-start">
@@ -90,7 +115,7 @@ const ConsumerResetPassword = () => {
             <div className="w-10 flex flex-row items-start justify-start">
               <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px]">
                 <div className="w-0 h-[18px] relative leading-[18px] flex items-center" />
-                <div className="self-stretch flex flex-row items-start justify-start text-center text-base text-text-primary">
+                <div className="self-stretch flex flex-row items-start justify-start text-base text-m3-ref-neutral-neutral20-200">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                     <div className="hidden flex-row items-start justify-start">
                       <img
@@ -101,8 +126,15 @@ const ConsumerResetPassword = () => {
                     </div>
                   </div>
                   <div className="h-6 w-0 relative hidden" />
-                  <div className="flex-1 relative leading-[24px]">3</div>
-                  <div className="h-12 w-[110px] relative leading-[24px] text-m3-ref-neutral-neutral20 text-left hidden whitespace-nowrap">
+                  <TextField
+                    className="[border:none] bg-[transparent] flex-1 relative min-w-[24px] p-0"
+                    color="primary"
+                    placeholder="3"
+                    variant="standard"
+                    type="number"
+                    sx={{ "& .MuiInputBase-root": { height: "24px" } }}
+                  />
+                  <div className="h-12 w-[110px] relative leading-[24px] hidden whitespace-nowrap">
                     user@email.com
                   </div>
                   <div className="h-px w-6 hidden flex-row items-center justify-start">
@@ -125,7 +157,7 @@ const ConsumerResetPassword = () => {
             <div className="w-10 flex flex-row items-start justify-start">
               <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px]">
                 <div className="w-0 h-[18px] relative leading-[18px] flex items-center" />
-                <div className="self-stretch flex flex-row items-start justify-start text-center text-base text-text-primary">
+                <div className="self-stretch flex flex-row items-start justify-start text-base text-m3-ref-neutral-neutral20-200">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                     <div className="hidden flex-row items-start justify-start">
                       <img
@@ -136,8 +168,14 @@ const ConsumerResetPassword = () => {
                     </div>
                   </div>
                   <div className="h-6 w-0 relative hidden" />
-                  <div className="flex-1 relative leading-[24px]">4</div>
-                  <div className="h-12 w-[110px] relative leading-[24px] text-m3-ref-neutral-neutral20 text-left hidden whitespace-nowrap">
+                  <TextField
+                    className="[border:none] bg-[transparent] flex-1 relative min-w-[24px] p-0"
+                    color="primary"
+                    placeholder="4"
+                    variant="standard"
+                    sx={{ "& .MuiInputBase-root": { height: "24px" } }}
+                  />
+                  <div className="h-12 w-[110px] relative leading-[24px] hidden whitespace-nowrap">
                     user@email.com
                   </div>
                   <div className="h-px w-6 hidden flex-row items-center justify-start">
@@ -160,7 +198,7 @@ const ConsumerResetPassword = () => {
             <div className="w-10 flex flex-row items-start justify-start">
               <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px]">
                 <div className="w-0 h-[18px] relative leading-[18px] flex items-center" />
-                <div className="self-stretch flex flex-row items-start justify-start text-center text-base text-text-primary">
+                <div className="self-stretch flex flex-row items-start justify-start text-base text-m3-ref-neutral-neutral20-200">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                     <div className="hidden flex-row items-start justify-start">
                       <img
@@ -171,8 +209,14 @@ const ConsumerResetPassword = () => {
                     </div>
                   </div>
                   <div className="h-6 w-0 relative hidden" />
-                  <div className="flex-1 relative leading-[24px]">5</div>
-                  <div className="h-12 w-[110px] relative leading-[24px] text-m3-ref-neutral-neutral20 text-left hidden whitespace-nowrap">
+                  <TextField
+                    className="[border:none] bg-[transparent] flex-1 relative min-w-[24px] p-0"
+                    color="primary"
+                    placeholder="5"
+                    variant="standard"
+                    sx={{ "& .MuiInputBase-root": { height: "24px" } }}
+                  />
+                  <div className="h-12 w-[110px] relative leading-[24px] hidden whitespace-nowrap">
                     user@email.com
                   </div>
                   <div className="h-px w-6 hidden flex-row items-center justify-start">
@@ -195,7 +239,7 @@ const ConsumerResetPassword = () => {
             <div className="w-10 flex flex-row items-start justify-start">
               <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px]">
                 <div className="w-0 h-[18px] relative leading-[18px] flex items-center" />
-                <div className="self-stretch flex flex-row items-start justify-start text-center text-base text-text-primary">
+                <div className="self-stretch flex flex-row items-start justify-start text-base text-m3-ref-neutral-neutral20-200">
                   <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
                     <div className="hidden flex-row items-start justify-start">
                       <img
@@ -206,8 +250,14 @@ const ConsumerResetPassword = () => {
                     </div>
                   </div>
                   <div className="h-6 w-0 relative hidden" />
-                  <div className="flex-1 relative leading-[24px]">6</div>
-                  <div className="h-12 w-[110px] relative leading-[24px] text-m3-ref-neutral-neutral20 text-left hidden whitespace-nowrap">
+                  <TextField
+                    className="[border:none] bg-[transparent] flex-1 relative min-w-[24px] p-0"
+                    color="primary"
+                    placeholder="6"
+                    variant="standard"
+                    sx={{ "& .MuiInputBase-root": { height: "24px" } }}
+                  />
+                  <div className="h-12 w-[110px] relative leading-[24px] hidden whitespace-nowrap">
                     user@email.com
                   </div>
                   <div className="h-px w-6 hidden flex-row items-center justify-start">
@@ -239,90 +289,70 @@ const ConsumerResetPassword = () => {
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-start max-w-full">
-            <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px] max-w-full mq450:h-auto">
-              <div className="relative leading-[18px] inline-block min-w-[81px]">
-                New Password
-              </div>
-              <div className="self-stretch flex flex-row items-start justify-start max-w-full [row-gap:20px] text-base text-text-primary font-h5-medium mq450:flex-wrap">
-                <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
-                  <div className="hidden flex-row items-start justify-start">
-                    <img
-                      className="h-6 w-6 relative overflow-hidden shrink-0"
-                      alt=""
-                      src="/starfilled-1.svg"
-                    />
-                  </div>
-                </div>
-                <div className="h-6 w-0 relative hidden" />
-                <div className="self-stretch w-[220px] relative tracking-[0.15px] leading-[24px] hidden" />
-                <input
-                  className="w-[calc(100%_-_24px)] [border:none] [outline:none] font-web-primary-h3-primary-dm-sans text-base bg-[transparent] h-6 flex-1 relative leading-[24px] text-m3-ref-neutral-neutral20 text-left inline-block min-w-[244px] max-w-full p-0"
-                  placeholder="************"
-                  type="text"
-                />
-                <div className="flex flex-col items-start justify-start pt-[11.5px] px-0 pb-0">
-                  <div className="w-6 h-px flex flex-row items-start justify-start relative">
-                    <img
-                      className="h-6 w-full absolute !m-[0] top-[calc(50%_-_12px)] right-[0px] left-[0px] max-w-full overflow-hidden"
-                      alt=""
-                      src="/removeredeyefilled.svg"
-                    />
-                  </div>
-                </div>
-                <div className="h-0 w-6 relative hidden" />
-              </div>
-              <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
-            </div>
-            <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+          <div className="self-stretch flex flex-row items-start justify-start max-w-full font-h5-medium">
+            <TextField
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[240px] max-w-full"
+              color="primary"
+              label="New Password"
+              required={true}
+              fullWidth={true}
+              variant="standard"
+              type={showPassword ? "text" : "password"}
+              InputProps={{
+                endAdornment: (
+                  <InputAdornment position="end">
+                    <IconButton
+                      onClick={handleShowPasswordClick}
+                      aria-label="toggle password visibility"
+                    >
+                      <Icon>
+                        {showPassword ? "visibility_off" : "visibility"}
+                      </Icon>
+                    </IconButton>
+                  </InputAdornment>
+                ),
+              }}
+              sx={{ "& .MuiInputBase-root": { height: "53px" } }}
+            />
+            <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
               <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                 Helper text
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-start max-w-full">
-            <div className="h-[53px] flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[5.5px] box-border gap-[5.5px] max-w-full mq450:h-auto">
-              <div className="relative leading-[18px] inline-block min-w-[101px]">
-                Confirm Password
-              </div>
-              <div className="self-stretch flex flex-row items-start justify-start max-w-full [row-gap:20px] text-base text-text-primary font-h5-medium mq450:flex-wrap">
-                <div className="h-px w-8 hidden flex-row items-center justify-start py-0 pr-2 pl-0 box-border">
-                  <div className="hidden flex-row items-start justify-start">
-                    <img
-                      className="h-6 w-6 relative overflow-hidden shrink-0"
-                      alt=""
-                      src="/starfilled-1.svg"
-                    />
-                  </div>
-                </div>
-                <div className="h-6 w-0 relative hidden" />
-                <div className="self-stretch w-[220px] relative tracking-[0.15px] leading-[24px] hidden" />
-                <input
-                  className="w-[calc(100%_-_24px)] [border:none] [outline:none] font-web-primary-h3-primary-dm-sans text-base bg-[transparent] h-6 flex-1 relative leading-[24px] text-m3-ref-neutral-neutral20 text-left inline-block min-w-[244px] max-w-full p-0"
-                  placeholder="************"
-                  type="text"
-                />
-                <div className="flex flex-col items-start justify-start pt-[11.5px] px-0 pb-0">
-                  <div className="w-6 h-px flex flex-row items-start justify-start relative">
-                    <img
-                      className="h-6 w-full absolute !m-[0] top-[calc(50%_-_12px)] right-[0px] left-[0px] max-w-full overflow-hidden"
-                      alt=""
-                      src="/removeredeyefilled.svg"
-                    />
-                  </div>
-                </div>
-                <div className="h-0 w-6 relative hidden" />
-              </div>
-              <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
-            </div>
-            <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+          <div className="self-stretch flex flex-row items-start justify-start max-w-full font-h5-medium">
+            <TextField
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[240px] max-w-full mq450:h-auto"
+              color="primary"
+              label="Confirm Password"
+              required={true}
+              fullWidth={true}
+              variant="standard"
+              type={showPassword ? "text" : "password"}
+              InputProps={{
+                endAdornment: (
+                  <InputAdornment position="end">
+                    <IconButton
+                      onClick={handleShowPasswordClick}
+                      aria-label="toggle password visibility"
+                    >
+                      <Icon>
+                        {showPassword ? "visibility_off" : "visibility"}
+                      </Icon>
+                    </IconButton>
+                  </InputAdornment>
+                ),
+              }}
+              sx={{ "& .MuiInputBase-root": { height: "53px" } }}
+            />
+            <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
               <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                 Helper text
               </div>
             </div>
           </div>
           <div className="self-stretch flex flex-col items-start justify-start gap-[16.7px] text-sm text-neutral-10">
-            <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-base text-grey-grey-600">
+            <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-base text-grey-600">
               <div className="self-stretch h-[19px] relative leading-[24px] font-semibold inline-block shrink-0">
                 Very Weak
               </div>
@@ -351,7 +381,7 @@ const ConsumerResetPassword = () => {
                     className="w-4 h-4 relative overflow-hidden shrink-0"
                     loading="lazy"
                     alt=""
-                    src="/info.svg"
+                    src="/info1.svg"
                   />
                 </div>
                 <div className="relative leading-[22px] inline-block min-w-[92px]">
@@ -364,7 +394,7 @@ const ConsumerResetPassword = () => {
                     className="w-4 h-4 relative overflow-hidden shrink-0"
                     loading="lazy"
                     alt=""
-                    src="/info.svg"
+                    src="/info1.svg"
                   />
                 </div>
                 <div className="relative leading-[22px] inline-block min-w-[79px]">
@@ -379,7 +409,7 @@ const ConsumerResetPassword = () => {
                     className="w-4 h-4 relative overflow-hidden shrink-0"
                     loading="lazy"
                     alt=""
-                    src="/info.svg"
+                    src="/info1.svg"
                   />
                 </div>
                 <div className="relative leading-[22px] inline-block min-w-[63px]">
@@ -392,7 +422,7 @@ const ConsumerResetPassword = () => {
                     className="w-4 h-4 relative overflow-hidden shrink-0"
                     loading="lazy"
                     alt=""
-                    src="/info.svg"
+                    src="/info1.svg"
                   />
                 </div>
                 <div className="relative leading-[22px] inline-block min-w-[124px]">
@@ -402,13 +432,14 @@ const ConsumerResetPassword = () => {
             </div>
           </div>
           <Button
-            className="self-stretch h-[60px] mq450:pl-5 mq450:pr-5 mq450:box-border"
+            className="self-stretch h-[60px] shadow-[0px_2px_0px_rgba(0,_0,_0,_0.04)] mq450:pl-5 mq450:pr-5 mq450:box-border"
             variant="contained"
             sx={{
               textTransform: "none",
               color: "#fff",
               fontSize: "18",
               background: "#f28500",
+              border: "#f28500 solid 1px",
               borderRadius: "4px",
               "&:hover": { background: "#f28500" },
               height: 60,
@@ -418,7 +449,7 @@ const ConsumerResetPassword = () => {
           </Button>
           <div className="self-stretch h-[42px] flex flex-row items-start justify-start">
             <Button
-              className="self-stretch w-[152px]"
+              className="self-stretch w-[152px] shadow-[0px_2px_0px_rgba(0,_0,_0,_0.02)]"
               startIcon={
                 <img width="16px" height="16px" src="/wrapper-1.png" />
               }
@@ -428,6 +459,7 @@ const ConsumerResetPassword = () => {
                 color: "#434343",
                 fontSize: "14",
                 background: "#fff",
+                border: "#d9d9d9 solid 1px",
                 borderRadius: "4px",
                 "&:hover": { background: "#fff" },
                 width: 152,
