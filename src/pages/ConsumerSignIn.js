@@ -13,7 +13,7 @@ const ConsumerSignIn = () => {
     setShowPassword(!showPassword);
   };
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[127px] tracking-[normal] leading-[normal] text-left text-29xl text-m3-black font-web-primary-h3-primary-dm-sans mq450:gap-[32px] mq450:pl-5 mq450:box-border mq750:gap-[63px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq1125:flex-wrap">
+    <div className="w-full relative bg-m3-sys-light-on-primary overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[127px] tracking-[normal] leading-[normal] text-left text-29xl text-m3-black font-web-secondary-underline-subtitle2-dm-sans mq450:gap-[32px] mq450:pl-5 mq450:box-border mq750:gap-[63px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq1125:flex-wrap">
       <img
         className="h-[588.5px] w-[663.6px] absolute !m-[0] right-[42.4px] bottom-[-13px] z-[1]"
         alt=""
@@ -21,12 +21,12 @@ const ConsumerSignIn = () => {
       />
       <div className="w-[470px] flex flex-col items-start justify-start pt-[82px] px-0 pb-0 box-border min-w-[470px] max-w-full mq450:pt-[34px] mq450:box-border mq750:min-w-full mq1050:pt-[53px] mq1050:box-border mq1125:flex-1">
         <form className="m-0 self-stretch flex flex-col items-start justify-start gap-[32px] max-w-full mq750:gap-[16px]">
-          <h1 className="m-0 relative text-13xl leading-[48px] font-bold font-web-primary-h3-primary-dm-sans text-m3-black text-left mq450:text-lgi mq450:leading-[29px] mq1050:text-7xl mq1050:leading-[38px]">
+          <h1 className="m-0 relative text-13xl leading-[48px] font-bold font-web-secondary-underline-subtitle2-dm-sans text-m3-black text-left mq450:text-lgi mq450:leading-[29px] mq1050:text-7xl mq1050:leading-[38px]">
             Continue your healing journey
           </h1>
           <div className="self-stretch flex flex-row items-start justify-start max-w-full">
             <TextField
-              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-secondary-underline-subtitle2-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
               color="primary"
               label="Email"
               placeholder="user@email.com"
@@ -37,14 +37,14 @@ const ConsumerSignIn = () => {
               sx={{ "& .MuiInputBase-root": { height: "53px" } }}
             />
             <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
-              <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-text-secondary text-left">
+              <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-components-helper-text text-text-secondary text-left">
                 Helper text
               </div>
             </div>
           </div>
           <div className="self-stretch flex flex-row items-start justify-start max-w-full">
             <TextField
-              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-secondary-underline-subtitle2-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
               color="primary"
               label="Password"
               size="small"
@@ -69,7 +69,7 @@ const ConsumerSignIn = () => {
               sx={{ "& .MuiInputBase-root": { height: "53px" } }}
             />
             <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
-              <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-text-secondary text-left">
+              <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-components-helper-text text-text-secondary text-left">
                 Helper text
               </div>
             </div>
@@ -83,7 +83,7 @@ const ConsumerSignIn = () => {
               />
             </div>
             <div className="flex flex-col items-start justify-start pt-3 px-0 pb-0">
-              <div className="relative text-sm leading-[22px] font-semibold font-web-primary-h3-primary-dm-sans text-text-primary text-left inline-block min-w-[126px]">
+              <div className="relative text-sm leading-[22px] font-semibold font-web-secondary-underline-subtitle2-dm-sans text-text-primary text-left inline-block min-w-[126px]">
                 Keep me signed in.
               </div>
             </div>
@@ -105,7 +105,7 @@ const ConsumerSignIn = () => {
             Sign In
           </Button>
           <div className="self-stretch rounded overflow-hidden flex flex-row items-start justify-center py-1 px-5 gap-[10px]">
-            <div className="bg-hitbox overflow-hidden hidden flex-col items-center justify-center">
+            <div className="bg-hitbox-1000 overflow-hidden hidden flex-col items-center justify-center">
               <img
                 className="w-3.5 h-3.5 relative overflow-hidden shrink-0 object-cover"
                 alt=""
@@ -125,7 +125,7 @@ const ConsumerSignIn = () => {
             <div className="flex-1 flex flex-col items-start justify-start pt-[9px] px-0 pb-0 box-border min-w-[141px]">
               <div className="self-stretch h-0.5 relative box-border border-t-[2px] border-solid border-whitesmoke-300" />
             </div>
-            <div className="relative text-xs leading-[18px] font-web-primary-h3-primary-dm-sans text-neutral-10 text-left inline-block min-w-[14px] mq750:w-full mq750:h-3.5">
+            <div className="relative text-xs leading-[18px] font-web-secondary-underline-subtitle2-dm-sans text-neutral-10 text-left inline-block min-w-[14px] mq750:w-full mq750:h-3.5">
               Or
             </div>
             <div className="flex-1 flex flex-col items-start justify-start pt-[9px] px-0 pb-0 box-border min-w-[141px]">
@@ -171,10 +171,10 @@ const ConsumerSignIn = () => {
             </Button>
           </div>
           <div className="flex flex-row items-start justify-start gap-[8px]">
-            <div className="relative text-sm leading-[22px] font-web-primary-h3-primary-dm-sans text-gray-200 text-left">
+            <div className="relative text-sm leading-[22px] font-web-secondary-underline-subtitle2-dm-sans text-gray-200 text-left">
               Don’t have an account?
             </div>
-            <a className="[text-decoration:underline] relative text-sm leading-[22px] font-semibold font-web-primary-h3-primary-dm-sans text-royalblue text-left inline-block min-w-[51px] whitespace-nowrap">
+            <a className="[text-decoration:underline] relative text-sm leading-[22px] font-semibold font-web-secondary-underline-subtitle2-dm-sans text-consumer-colors-complemantary text-left inline-block min-w-[51px] whitespace-nowrap">
               Sign Up
             </a>
           </div>

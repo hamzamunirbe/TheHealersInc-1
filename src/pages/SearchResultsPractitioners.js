@@ -15,8 +15,8 @@ import Component from "../components/Component";
 
 const SearchResultsPractitioners = () => {
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-10 box-border gap-[40px] leading-[normal] tracking-[normal] text-left text-13xl text-text-primary font-web-primary-h3-primary-dm-sans mq750:gap-[20px]">
-      <header className="self-stretch shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] bg-neutral-1 flex flex-row items-start justify-center py-[22px] px-5 gap-[704px] top-[0] z-[99] sticky border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq750:gap-[176px] mq450:gap-[88px]">
+    <div className="w-full relative bg-m3-sys-light-on-primary overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-10 box-border gap-[40px] leading-[normal] tracking-[normal] text-left text-13xl text-text-primary font-web-secondary-underline-subtitle2-dm-sans mq750:gap-[20px]">
+      <header className="self-stretch shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] bg-m3-sys-light-on-primary flex flex-row items-start justify-center py-[22px] px-5 gap-[704px] top-[0] z-[99] sticky border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq750:gap-[176px] mq450:gap-[88px]">
         <div className="w-[236px] flex flex-col items-start justify-start pt-[7px] px-0 pb-0 box-border">
           <div className="self-stretch flex flex-row items-end justify-start gap-[12.4px]">
             <img
@@ -35,7 +35,7 @@ const SearchResultsPractitioners = () => {
             </div>
           </div>
         </div>
-        <div className="w-[260px] shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-13xl bg-neutral-1 overflow-hidden shrink-0 flex flex-row items-center justify-start py-2.5 px-4 box-border gap-[20px]">
+        <div className="w-[260px] shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-13xl bg-m3-sys-light-on-primary overflow-hidden shrink-0 flex flex-row items-center justify-start py-2.5 px-4 box-border gap-[20px]">
           <div className="flex flex-row items-center justify-start">
             <img
               className="h-8 w-8 relative overflow-hidden shrink-0 object-cover"
@@ -45,7 +45,7 @@ const SearchResultsPractitioners = () => {
             />
           </div>
           <TextField
-            className="h-[41px] flex-1 font-web-primary-h3-primary-dm-sans font-semibold text-base text-m3-black w-auto"
+            className="h-[41px] flex-1 font-web-secondary-underline-subtitle2-dm-sans font-semibold text-base text-m3-black w-auto"
             variant="standard"
             select
             value={1}
@@ -92,11 +92,11 @@ const SearchResultsPractitioners = () => {
           </TextField>
         </div>
       </header>
-      <div className="self-stretch rounded-xl bg-neutral-1 overflow-hidden flex flex-col items-center justify-start py-6 px-5 box-border max-w-full">
+      <div className="self-stretch rounded-xl bg-m3-sys-light-on-primary overflow-hidden flex flex-col items-center justify-start py-6 px-5 box-border max-w-full">
         <form className="m-0 w-[1200px] overflow-hidden flex flex-row flex-wrap items-center justify-center gap-[24px] max-w-full">
           <div className="flex-1 flex flex-row items-center justify-start gap-[16px] min-w-[686px] max-w-full mq750:min-w-full mq1050:flex-wrap">
             <TextField
-              className="[border:none] bg-[transparent] h-[72px] w-[642px] font-web-primary-h3-primary-dm-sans text-base text-m3-black max-w-full"
+              className="[border:none] bg-[transparent] h-[72px] w-[642px] font-web-secondary-underline-subtitle2-dm-sans text-base text-m3-black max-w-full"
               color="primary"
               size="small"
               placeholder="Search for anything..."
@@ -159,7 +159,7 @@ const SearchResultsPractitioners = () => {
               <div className="w-px h-2 relative hidden" />
             </div>
           </div>
-          <div className="w-[857px] hidden flex-row items-start justify-start max-w-full text-base text-text-secondary font-h5-medium">
+          <div className="w-[857px] hidden flex-row items-start justify-start max-w-full text-base text-text-secondary font-components-helper-text">
             <div className="h-7 flex-1 relative tracking-[0.15px] leading-[175%] flex items-center max-w-full">
               Description
             </div>
@@ -168,15 +168,15 @@ const SearchResultsPractitioners = () => {
         </div>
       </div>
       <main className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
-        <section className="w-[1200px] flex flex-col items-start justify-start gap-[88px] max-w-full text-left text-lg text-neutral-8 font-web-primary-h3-primary-dm-sans lg:gap-[44px] mq750:gap-[22px]">
+        <section className="w-[1200px] flex flex-col items-start justify-start gap-[88px] max-w-full text-left text-lg text-neutral-8 font-web-secondary-underline-subtitle2-dm-sans lg:gap-[44px] mq750:gap-[22px]">
           <div className="self-stretch flex flex-row items-start justify-start gap-[40px] max-w-full mq750:gap-[20px]">
-            <div className="h-[1063px] w-[216px] bg-neutral-1 overflow-y-auto shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-[877px] box-border gap-[8px] lg:pb-[570px] lg:box-border mq750:hidden mq750:pb-60 mq750:box-border mq1050:pb-[370px] mq1050:box-border">
-              <div className="self-stretch shadow-[0px_-1px_0px_#f0f0f0_inset] bg-neutral-1 flex flex-row items-start justify-start pt-0 px-0 pb-2 shrink-0 [debug_commit:1de1738]">
+            <div className="h-[1063px] w-[216px] bg-m3-sys-light-on-primary overflow-y-auto shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-[877px] box-border gap-[8px] lg:pb-[570px] lg:box-border mq750:hidden mq750:pb-60 mq750:box-border mq1050:pb-[370px] mq1050:box-border">
+              <div className="self-stretch shadow-[0px_-1px_0px_#f0f0f0_inset] bg-m3-sys-light-on-primary flex flex-row items-start justify-start pt-0 px-0 pb-2 shrink-0 [debug_commit:1de1738]">
                 <b className="relative leading-[28px] inline-block min-w-[56px]">
                   Filters
                 </b>
               </div>
-              <div className="self-stretch h-[142px] shadow-[0px_-1px_0px_#f0f0f0_inset] bg-neutral-1 shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-2 box-border gap-[12px] [debug_commit:1de1738] text-base">
+              <div className="self-stretch h-[142px] shadow-[0px_-1px_0px_#f0f0f0_inset] bg-m3-sys-light-on-primary shrink-0 flex flex-col items-start justify-start pt-0 px-0 pb-2 box-border gap-[12px] [debug_commit:1de1738] text-base">
                 <div className="relative leading-[24px] font-semibold inline-block min-w-[64px]">
                   Applied:
                 </div>
@@ -188,11 +188,11 @@ const SearchResultsPractitioners = () => {
                       src="/left-icon.svg"
                     />
                     <div className="flex flex-row items-start justify-start py-0 px-1">
-                      <b className="relative text-xs leading-[20px] uppercase inline-block font-web-primary-h3-primary-dm-sans text-highlight-darkest text-center min-w-[35px]">
+                      <b className="relative text-xs leading-[20px] uppercase inline-block font-web-secondary-underline-subtitle2-dm-sans text-highlight-darkest text-center min-w-[35px]">
                         Yoga
                       </b>
                     </div>
-                    <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                    <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                       <img
                         className="w-3 h-3 relative overflow-hidden shrink-0"
                         alt=""
@@ -207,11 +207,11 @@ const SearchResultsPractitioners = () => {
                       src="/left-icon.svg"
                     />
                     <div className="flex flex-row items-start justify-start py-0 px-1">
-                      <b className="relative text-xs leading-[20px] uppercase inline-block font-web-primary-h3-primary-dm-sans text-highlight-darkest text-center min-w-[46px]">
+                      <b className="relative text-xs leading-[20px] uppercase inline-block font-web-secondary-underline-subtitle2-dm-sans text-highlight-darkest text-center min-w-[46px]">
                         5 Miles
                       </b>
                     </div>
-                    <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                    <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                       <img
                         className="w-3 h-3 relative overflow-hidden shrink-0"
                         alt=""
@@ -226,11 +226,11 @@ const SearchResultsPractitioners = () => {
                       src="/left-icon.svg"
                     />
                     <div className="flex flex-row items-start justify-start py-0 px-1">
-                      <b className="relative text-xs leading-[20px] uppercase inline-block font-web-primary-h3-primary-dm-sans text-highlight-darkest text-center min-w-[123px] whitespace-nowrap">
+                      <b className="relative text-xs leading-[20px] uppercase inline-block font-web-secondary-underline-subtitle2-dm-sans text-highlight-darkest text-center min-w-[123px] whitespace-nowrap">
                         08:00 AM - 12:00 PM
                       </b>
                     </div>
-                    <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                    <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                       <img
                         className="w-3 h-3 relative overflow-hidden shrink-0"
                         alt=""
@@ -240,27 +240,27 @@ const SearchResultsPractitioners = () => {
                   </button>
                 </div>
                 <div className="rounded overflow-hidden flex flex-row items-center justify-center py-1 px-2 gap-[8px]">
-                  <div className="bg-hitbox overflow-hidden hidden flex-col items-center justify-center">
+                  <div className="bg-hitbox-1000 overflow-hidden hidden flex-col items-center justify-center">
                     <img
                       className="w-3.5 h-3.5 relative overflow-hidden shrink-0 object-cover"
                       alt=""
                       src="/wrapper-1@2x.png"
                     />
                   </div>
-                  <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm [text-decoration:underline] leading-[22px] font-web-primary-h3-primary-dm-sans text-royalblue text-center inline-block min-w-[54px]">
+                  <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm [text-decoration:underline] leading-[22px] font-web-secondary-underline-subtitle2-dm-sans text-consumer-colors-complemantary text-center inline-block min-w-[54px]">
                     Clear All
                   </button>
                 </div>
               </div>
-              <div className="self-stretch h-[1282px] shadow-[-2px_0px_0px_#1890ff_inset] bg-neutral-1 overflow-y-auto shrink-0 flex flex-col items-start justify-start [debug_commit:1de1738] text-sm text-m3-black">
+              <div className="self-stretch h-[1282px] shadow-[-2px_0px_0px_#1890ff_inset] bg-m3-sys-light-on-primary overflow-y-auto shrink-0 flex flex-col items-start justify-start [debug_commit:1de1738] text-sm text-m3-black">
                 <div className="self-stretch h-[1234px] shrink-0 flex flex-col items-start justify-start gap-[8px]">
-                  <div className="self-stretch shadow-[0px_-1px_0px_#f0f0f0_inset] bg-neutral-1 overflow-hidden flex flex-row items-start justify-start py-3 px-6 gap-[17px]">
+                  <div className="self-stretch shadow-[0px_-1px_0px_#f0f0f0_inset] bg-m3-sys-light-on-primary overflow-hidden flex flex-row items-start justify-start py-3 px-6 gap-[17px]">
                     <div className="flex flex-col items-start justify-start pt-px px-0 pb-0">
                       <div className="relative leading-[22px] font-semibold inline-block min-w-[127px]">
                         Service Categories
                       </div>
                     </div>
-                    <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                    <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                       <img
                         className="w-6 h-6 relative overflow-hidden shrink-0"
                         loading="lazy"
@@ -271,7 +271,7 @@ const SearchResultsPractitioners = () => {
                   </div>
                   <div className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-start">
                     <div className="self-stretch flex flex-col items-start justify-start">
-                      <div className="self-stretch bg-neutral-1 flex flex-row items-start justify-start pt-3 px-4 pb-[9px] border-b-[2px] border-solid border-whitesmoke-500">
+                      <div className="self-stretch bg-m3-sys-light-on-primary flex flex-row items-start justify-start pt-3 px-4 pb-[9px] border-b-[2px] border-solid border-whitesmoke-500">
                         <div className="flex-1 overflow-hidden flex flex-row items-start justify-start gap-[16px]">
                           <div className="flex flex-col items-start justify-start pt-2.5 px-0 pb-0">
                             <input
@@ -283,7 +283,7 @@ const SearchResultsPractitioners = () => {
                             Psychologists and Counselors
                           </div>
                           <div className="flex flex-col items-start justify-start pt-2.5 px-0 pb-0">
-                            <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                            <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                               <img
                                 className="w-6 h-6 relative overflow-hidden shrink-0"
                                 alt=""
@@ -350,7 +350,7 @@ const SearchResultsPractitioners = () => {
                       </div>
                     </div>
                     <div className="self-stretch flex flex-col items-start justify-start">
-                      <div className="self-stretch bg-neutral-1 flex flex-row items-start justify-start pt-3 px-4 pb-[9px] border-b-[2px] border-solid border-whitesmoke-500">
+                      <div className="self-stretch bg-m3-sys-light-on-primary flex flex-row items-start justify-start pt-3 px-4 pb-[9px] border-b-[2px] border-solid border-whitesmoke-500">
                         <div className="flex-1 overflow-hidden flex flex-row items-start justify-start gap-[16px]">
                           <input
                             className="m-0 h-6 w-6 relative rounded overflow-hidden shrink-0"
@@ -361,7 +361,7 @@ const SearchResultsPractitioners = () => {
                               Mind
                             </div>
                           </div>
-                          <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                          <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                             <img
                               className="w-6 h-6 relative overflow-hidden shrink-0"
                               alt=""
@@ -443,7 +443,7 @@ const SearchResultsPractitioners = () => {
                       </div>
                     </div>
                     <div className="self-stretch flex flex-col items-start justify-start">
-                      <div className="self-stretch bg-neutral-1 flex flex-row items-start justify-start pt-3 px-4 pb-[9px] border-b-[2px] border-solid border-whitesmoke-500">
+                      <div className="self-stretch bg-m3-sys-light-on-primary flex flex-row items-start justify-start pt-3 px-4 pb-[9px] border-b-[2px] border-solid border-whitesmoke-500">
                         <div className="flex-1 overflow-hidden flex flex-row items-start justify-start gap-[16px]">
                           <input
                             className="m-0 h-6 w-6 relative rounded overflow-hidden shrink-0"
@@ -454,7 +454,7 @@ const SearchResultsPractitioners = () => {
                               Body
                             </div>
                           </div>
-                          <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                          <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                             <img
                               className="w-6 h-6 relative overflow-hidden shrink-0"
                               alt=""
@@ -604,7 +604,7 @@ const SearchResultsPractitioners = () => {
                           </div>
                         </div>
                         <TextField
-                          className="[border:none] bg-[transparent] self-stretch h-12 font-web-primary-h3-primary-dm-sans text-sm text-m3-black"
+                          className="[border:none] bg-[transparent] self-stretch h-12 font-web-secondary-underline-subtitle2-dm-sans text-sm text-m3-black"
                           placeholder="Title"
                           variant="standard"
                           sx={{
@@ -620,11 +620,11 @@ const SearchResultsPractitioners = () => {
                   </div>
                 </div>
                 <div className="self-stretch h-12 overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[8px] text-neutral-11">
-                  <div className="self-stretch shadow-[0px_-1px_0px_#f0f0f0_inset] bg-neutral-1 overflow-hidden flex flex-row items-center justify-between py-3 px-6 gap-[20px]">
+                  <div className="self-stretch shadow-[0px_-1px_0px_#f0f0f0_inset] bg-m3-sys-light-on-primary overflow-hidden flex flex-row items-center justify-between py-3 px-6 gap-[20px]">
                     <div className="h-[22px] w-[60px] relative leading-[22px] font-semibold inline-block">
                       Distance
                     </div>
-                    <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                    <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                       <img
                         className="w-6 h-6 relative overflow-hidden shrink-0"
                         alt=""
@@ -820,7 +820,7 @@ const SearchResultsPractitioners = () => {
               </div>
             </div>
             <div className="flex-1 flex flex-row flex-wrap items-start justify-end gap-[24px_23px] min-h-[1196px] max-w-[calc(100%_-_256px)] text-xl text-neutral-10 mq750:max-w-full">
-              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-neutral-1 flex flex-row items-start justify-start">
+              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start">
                 <div className="flex-1 flex flex-col items-center justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start p-4">
                     <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -848,8 +848,8 @@ const SearchResultsPractitioners = () => {
                       src="/media@2x.png"
                     />
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
-                    <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-components-helper-text">
+                    <div className="flex-1 relative leading-[22px] font-web-secondary-underline-subtitle2-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
                       Howe Street, Vancouver
                     </div>
                     <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
@@ -860,7 +860,7 @@ const SearchResultsPractitioners = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-m3-sys-light-on-primary">
                         <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                           <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                             Enabled
@@ -872,7 +872,7 @@ const SearchResultsPractitioners = () => {
                       <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
                         1 mile
                       </div>
-                      <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                      <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                         <img
                           className="w-6 h-6 relative overflow-hidden shrink-0"
                           alt=""
@@ -883,7 +883,7 @@ const SearchResultsPractitioners = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-neutral-1 flex flex-row items-start justify-start">
+              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start">
                 <div className="flex-1 flex flex-col items-center justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start p-4">
                     <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -907,8 +907,8 @@ const SearchResultsPractitioners = () => {
                       src="/media@2x.png"
                     />
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
-                    <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-components-helper-text">
+                    <div className="flex-1 relative leading-[22px] font-web-secondary-underline-subtitle2-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
                       Howe Street, Vancouver
                     </div>
                     <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
@@ -919,7 +919,7 @@ const SearchResultsPractitioners = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-m3-sys-light-on-primary">
                         <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                           <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                             Enabled
@@ -931,7 +931,7 @@ const SearchResultsPractitioners = () => {
                       <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
                         1 mile
                       </div>
-                      <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                      <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                         <img
                           className="w-6 h-6 relative overflow-hidden shrink-0"
                           alt=""
@@ -942,7 +942,7 @@ const SearchResultsPractitioners = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-neutral-1 flex flex-row items-start justify-start">
+              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start">
                 <div className="flex-1 flex flex-col items-center justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start p-4">
                     <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -968,8 +968,8 @@ const SearchResultsPractitioners = () => {
                       src="/media@2x.png"
                     />
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
-                    <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-components-helper-text">
+                    <div className="flex-1 relative leading-[22px] font-web-secondary-underline-subtitle2-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
                       Howe Street, Vancouver
                     </div>
                     <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
@@ -980,7 +980,7 @@ const SearchResultsPractitioners = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-m3-sys-light-on-primary">
                         <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                           <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                             Enabled
@@ -992,7 +992,7 @@ const SearchResultsPractitioners = () => {
                       <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
                         1 mile
                       </div>
-                      <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                      <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                         <img
                           className="w-6 h-6 relative overflow-hidden shrink-0"
                           alt=""
@@ -1003,7 +1003,7 @@ const SearchResultsPractitioners = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-neutral-1 flex flex-row items-start justify-start">
+              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start">
                 <div className="flex-1 flex flex-col items-center justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start p-4">
                     <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -1029,8 +1029,8 @@ const SearchResultsPractitioners = () => {
                       src="/media@2x.png"
                     />
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
-                    <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-components-helper-text">
+                    <div className="flex-1 relative leading-[22px] font-web-secondary-underline-subtitle2-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
                       Howe Street, Vancouver
                     </div>
                     <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
@@ -1041,7 +1041,7 @@ const SearchResultsPractitioners = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-m3-sys-light-on-primary">
                         <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                           <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                             Enabled
@@ -1053,7 +1053,7 @@ const SearchResultsPractitioners = () => {
                       <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
                         1 mile
                       </div>
-                      <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                      <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                         <img
                           className="w-6 h-6 relative overflow-hidden shrink-0"
                           alt=""
@@ -1064,7 +1064,7 @@ const SearchResultsPractitioners = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-neutral-1 flex flex-row items-start justify-start">
+              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start">
                 <div className="flex-1 flex flex-col items-center justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start p-4">
                     <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -1090,8 +1090,8 @@ const SearchResultsPractitioners = () => {
                       src="/media@2x.png"
                     />
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
-                    <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-components-helper-text">
+                    <div className="flex-1 relative leading-[22px] font-web-secondary-underline-subtitle2-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
                       Howe Street, Vancouver
                     </div>
                     <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
@@ -1102,7 +1102,7 @@ const SearchResultsPractitioners = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-m3-sys-light-on-primary">
                         <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                           <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                             Enabled
@@ -1114,7 +1114,7 @@ const SearchResultsPractitioners = () => {
                       <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
                         1 mile
                       </div>
-                      <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                      <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                         <img
                           className="w-6 h-6 relative overflow-hidden shrink-0"
                           alt=""
@@ -1125,7 +1125,7 @@ const SearchResultsPractitioners = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-neutral-1 flex flex-row items-start justify-start">
+              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start">
                 <div className="flex-1 flex flex-col items-center justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start p-4">
                     <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -1151,8 +1151,8 @@ const SearchResultsPractitioners = () => {
                       src="/media@2x.png"
                     />
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
-                    <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-components-helper-text">
+                    <div className="flex-1 relative leading-[22px] font-web-secondary-underline-subtitle2-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
                       Howe Street, Vancouver
                     </div>
                     <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
@@ -1163,7 +1163,7 @@ const SearchResultsPractitioners = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-m3-sys-light-on-primary">
                         <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                           <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                             Enabled
@@ -1175,7 +1175,7 @@ const SearchResultsPractitioners = () => {
                       <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
                         1 mile
                       </div>
-                      <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                      <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                         <img
                           className="w-6 h-6 relative overflow-hidden shrink-0"
                           alt=""
@@ -1186,7 +1186,7 @@ const SearchResultsPractitioners = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-neutral-1 flex flex-row items-start justify-start">
+              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start">
                 <div className="flex-1 flex flex-col items-center justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start p-4">
                     <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -1212,8 +1212,8 @@ const SearchResultsPractitioners = () => {
                       src="/media@2x.png"
                     />
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
-                    <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-components-helper-text">
+                    <div className="flex-1 relative leading-[22px] font-web-secondary-underline-subtitle2-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
                       Howe Street, Vancouver
                     </div>
                     <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
@@ -1224,7 +1224,7 @@ const SearchResultsPractitioners = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-m3-sys-light-on-primary">
                         <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                           <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                             Enabled
@@ -1236,7 +1236,7 @@ const SearchResultsPractitioners = () => {
                       <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
                         1 mile
                       </div>
-                      <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                      <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                         <img
                           className="w-6 h-6 relative overflow-hidden shrink-0"
                           alt=""
@@ -1247,7 +1247,7 @@ const SearchResultsPractitioners = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-neutral-1 flex flex-row items-start justify-start">
+              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start">
                 <div className="flex-1 flex flex-col items-center justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start p-4">
                     <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -1273,8 +1273,8 @@ const SearchResultsPractitioners = () => {
                       src="/media@2x.png"
                     />
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
-                    <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-components-helper-text">
+                    <div className="flex-1 relative leading-[22px] font-web-secondary-underline-subtitle2-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
                       Howe Street, Vancouver
                     </div>
                     <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
@@ -1285,7 +1285,7 @@ const SearchResultsPractitioners = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-m3-sys-light-on-primary">
                         <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                           <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                             Enabled
@@ -1297,7 +1297,7 @@ const SearchResultsPractitioners = () => {
                       <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
                         1 mile
                       </div>
-                      <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                      <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                         <img
                           className="w-6 h-6 relative overflow-hidden shrink-0"
                           alt=""
@@ -1308,7 +1308,7 @@ const SearchResultsPractitioners = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-neutral-1 flex flex-row items-start justify-start">
+              <div className="w-[298px] shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start">
                 <div className="flex-1 flex flex-col items-center justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start p-4">
                     <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -1334,8 +1334,8 @@ const SearchResultsPractitioners = () => {
                       src="/media@2x.png"
                     />
                   </div>
-                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
-                    <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                  <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-components-helper-text">
+                    <div className="flex-1 relative leading-[22px] font-web-secondary-underline-subtitle2-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
                       Howe Street, Vancouver
                     </div>
                     <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
@@ -1346,7 +1346,7 @@ const SearchResultsPractitioners = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                      <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-m3-sys-light-on-primary">
                         <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                           <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                             Enabled
@@ -1358,7 +1358,7 @@ const SearchResultsPractitioners = () => {
                       <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
                         1 mile
                       </div>
-                      <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                      <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                         <img
                           className="w-6 h-6 relative overflow-hidden shrink-0"
                           alt=""
@@ -1374,7 +1374,7 @@ const SearchResultsPractitioners = () => {
                   Showing 12 Results out of 120
                 </div>
                 <div className="flex flex-row items-center justify-center py-4 pr-0 pl-8 box-border gap-[32px] max-w-full text-neutral-7 mq450:flex-wrap mq450:gap-[16px]">
-                  <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="w-6 h-6 relative overflow-hidden shrink-0"
                       alt=""
@@ -1418,7 +1418,7 @@ const SearchResultsPractitioners = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="w-6 h-6 relative overflow-hidden shrink-0"
                       alt=""
@@ -1429,7 +1429,7 @@ const SearchResultsPractitioners = () => {
               </div>
             </div>
           </div>
-          <footer className="self-stretch flex flex-col items-start justify-start gap-[32px] text-left text-mid text-gray-200 font-web-primary-h3-primary-dm-sans mq750:gap-[16px]">
+          <footer className="self-stretch flex flex-col items-start justify-start gap-[32px] text-left text-mid text-gray-200 font-gilroy-regular mq750:gap-[16px]">
             <div className="flex flex-row items-start justify-start gap-[54.9px] lg:flex-wrap mq750:gap-[27px]">
               <div className="w-[248px] flex flex-col items-start justify-start gap-[32px] text-mini text-gray-700">
                 <div className="w-[236px] flex flex-row items-end justify-start gap-[12.4px]">
@@ -1503,7 +1503,7 @@ const SearchResultsPractitioners = () => {
                   Cookie Preferences
                 </div>
               </div>
-              <div className="w-[135.9px] flex flex-col items-start justify-start gap-[16px] text-4xs-4 text-neutral-1 font-open-sans">
+              <div className="w-[135.9px] flex flex-col items-start justify-start gap-[16px] text-4xs-4 text-m3-sys-light-on-primary font-open-sans">
                 <img
                   className="self-stretch h-10 relative max-w-full overflow-hidden shrink-0"
                   loading="lazy"
@@ -1589,12 +1589,12 @@ const SearchResultsPractitioners = () => {
                     <img
                       className="h-6 w-6 relative object-cover min-h-[24px]"
                       alt=""
-                      src="/logoinstagram@2x.png"
+                      src="/logoinstagram1@2x.png"
                     />
                     <img
                       className="h-6 w-6 relative object-cover min-h-[24px]"
                       alt=""
-                      src="/logolinkedin@2x.png"
+                      src="/logolinkedin1@2x.png"
                     />
                   </div>
                 </div>

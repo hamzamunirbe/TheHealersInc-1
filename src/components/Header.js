@@ -9,14 +9,14 @@ const Header = () => {
             className="h-[50px] w-[50.6px] relative overflow-hidden shrink-0"
             loading="lazy"
             alt=""
-            src="/the-healers-logo1.svg"
+            src="/the-healers-logo11.svg"
           />
           <div className="flex-1 flex flex-col items-start justify-end pt-0 px-0 pb-[13px]">
             <img
               className="self-stretch h-[23.9px] relative max-w-full overflow-hidden shrink-0"
               loading="lazy"
               alt=""
-              src="/the-healers1.svg"
+              src="/the-healers11.svg"
             />
           </div>
         </div>

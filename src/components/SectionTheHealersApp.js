@@ -1,6 +1,6 @@
 const SectionTheHealersApp = () => {
   return (
-    <section className="self-stretch bg-consumer-colors-primary-1 flex flex-row items-start justify-start py-[140.5px] px-[100px] box-border gap-[56px] max-w-full text-left text-smi text-consumer-colors-monochromatic font-web-primary-h3-primary-dm-sans mq1225:flex-wrap mq1225:pl-[50px] mq1225:pr-[50px] mq1225:box-border mq750:gap-[28px] mq750:py-[91px] mq750:px-[25px] mq750:box-border">
+    <section className="self-stretch bg-consumer-colors-primary-1 flex flex-row items-start justify-start py-[140.5px] px-[100px] box-border gap-[56px] max-w-full text-left text-smi text-consumer-colors-monochromatic font-web-secondary-underline-subtitle2-dm-sans mq1225:flex-wrap mq1225:pl-[50px] mq1225:pr-[50px] mq1225:box-border mq750:gap-[28px] mq750:py-[91px] mq750:px-[25px] mq750:box-border">
       <div className="w-[690px] flex flex-col items-start justify-start gap-[32px] min-w-[690px] max-w-full mq1225:flex-1 mq750:gap-[16px] mq1050:min-w-full">
         <div className="w-[589px] flex flex-col items-start justify-start gap-[8px] max-w-full">
           <b className="self-stretch relative tracking-[1.63px] uppercase">
@@ -20,7 +20,7 @@ const SectionTheHealersApp = () => {
       </div>
       <div className="w-64 flex flex-col items-start justify-start pt-[39.5px] px-0 pb-0 box-border min-w-[256px] text-lgi text-m3-black mq1225:flex-1">
         <div className="self-stretch flex flex-col items-start justify-start gap-[36px] mq450:gap-[18px]">
-          <div className="rounded-2xl bg-neutral-1 flex flex-row items-start justify-start p-4 gap-[16px]">
+          <div className="rounded-2xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start p-4 gap-[16px]">
             <div className="flex flex-row items-start justify-start py-1 px-0">
               <div className="h-4 w-4 relative rounded-[50%] bg-lightcoral" />
             </div>
@@ -29,7 +29,7 @@ const SectionTheHealersApp = () => {
               <p className="m-0">Simple</p>
             </b>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-end text-center text-neutral-1">
+          <div className="self-stretch flex flex-row items-start justify-end text-center text-m3-sys-light-on-primary">
             <div className="w-[213px] flex flex-row items-start justify-start relative">
               <div className="h-[530px] w-[409.1px] absolute !m-[0] top-[-242px] right-[-238px]">
                 <div className="absolute top-[0px] left-[234.1px] rounded-3xs bg-orange w-[175px] h-[216px] mix-blend-normal" />

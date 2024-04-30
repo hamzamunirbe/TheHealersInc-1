@@ -27,8 +27,8 @@ const ConsumerPreferences4 = () => {
   }, [navigate]);
 
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[75px] box-border gap-[80px] leading-[normal] tracking-[normal] mq750:gap-[40px] mq450:gap-[20px]">
-      <header className="self-stretch shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] bg-neutral-1 flex flex-row items-start justify-center py-[22px] px-5 gap-[704px] top-[0] z-[99] sticky border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq750:gap-[176px] mq450:gap-[88px]">
+    <div className="w-full relative bg-m3-sys-light-on-primary overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[75px] box-border gap-[80px] leading-[normal] tracking-[normal] mq750:gap-[40px] mq450:gap-[20px]">
+      <header className="self-stretch shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] bg-m3-sys-light-on-primary flex flex-row items-start justify-center py-[22px] px-5 gap-[704px] top-[0] z-[99] sticky border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq750:gap-[176px] mq450:gap-[88px]">
         <div className="w-[236px] flex flex-col items-start justify-start pt-[7px] px-0 pb-0 box-border">
           <div className="self-stretch flex flex-row items-end justify-start gap-[12.4px]">
             <img
@@ -47,7 +47,7 @@ const ConsumerPreferences4 = () => {
             </div>
           </div>
         </div>
-        <div className="w-[260px] shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-13xl bg-neutral-1 overflow-hidden shrink-0 flex flex-row items-center justify-start py-2.5 px-4 box-border gap-[20px]">
+        <div className="w-[260px] shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-13xl bg-m3-sys-light-on-primary overflow-hidden shrink-0 flex flex-row items-center justify-start py-2.5 px-4 box-border gap-[20px]">
           <div className="flex flex-row items-center justify-start">
             <img
               className="h-8 w-8 relative overflow-hidden shrink-0"
@@ -57,7 +57,7 @@ const ConsumerPreferences4 = () => {
             />
           </div>
           <TextField
-            className="h-[41px] flex-1 font-web-primary-h3-primary-dm-sans font-semibold text-base text-m3-black w-auto"
+            className="h-[41px] flex-1 font-web-secondary-underline-subtitle2-dm-sans font-semibold text-base text-m3-black w-auto"
             variant="standard"
             select
             value={1}
@@ -104,12 +104,12 @@ const ConsumerPreferences4 = () => {
           </TextField>
         </div>
       </header>
-      <section className="w-[996px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-center text-lg text-neutral-8 font-web-primary-h3-primary-dm-sans">
+      <section className="w-[996px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-center text-lg text-neutral-8 font-web-secondary-underline-subtitle2-dm-sans">
         <div className="w-[756px] flex flex-col items-start justify-start gap-[24px] max-w-full">
           <div className="self-stretch flex flex-row items-start justify-start gap-[56px] max-w-full mq750:gap-[28px]">
             <div className="flex flex-col items-start justify-start gap-[24px] mq750:hidden">
               <div
-                className="shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-2xl bg-neutral-1 flex flex-col items-start justify-start py-[34px] px-[57px] gap-[16px] cursor-pointer"
+                className="shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-2xl bg-m3-sys-light-on-primary flex flex-col items-start justify-start py-[34px] px-[57px] gap-[16px] cursor-pointer"
                 onClick={onPreferencesTileContainerClick}
               >
                 <div className="flex flex-row items-start justify-start py-0 px-[3px]">
@@ -125,7 +125,7 @@ const ConsumerPreferences4 = () => {
                 </b>
               </div>
               <div
-                className="shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-2xl bg-neutral-1 flex flex-col items-start justify-start py-[34px] px-[34.5px] gap-[16px] cursor-pointer"
+                className="shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-2xl bg-m3-sys-light-on-primary flex flex-col items-start justify-start py-[34px] px-[34.5px] gap-[16px] cursor-pointer"
                 onClick={onPreferencesTileContainer1Click}
               >
                 <div className="flex flex-row items-start justify-start py-0 pr-[25px] pl-[25.5px]">
@@ -139,7 +139,7 @@ const ConsumerPreferences4 = () => {
                   Date of Birth
                 </b>
               </div>
-              <div className="shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-2xl bg-neutral-1 flex flex-col items-start justify-start py-[34px] px-[23px] gap-[16px]">
+              <div className="shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-2xl bg-m3-sys-light-on-primary flex flex-col items-start justify-start py-[34px] px-[23px] gap-[16px]">
                 <div className="flex flex-row items-start justify-start py-0 px-[37px]">
                   <img
                     className="h-[60px] w-[60px] relative overflow-hidden shrink-0"
@@ -211,13 +211,13 @@ const ConsumerPreferences4 = () => {
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-end justify-between gap-[20px] text-neutral-1 mq450:flex-wrap">
+          <div className="self-stretch flex flex-row items-end justify-between gap-[20px] text-m3-sys-light-on-primary mq450:flex-wrap">
             <div
-              className="rounded-2xl bg-royalblue flex flex-col items-end justify-start pt-2.5 px-2.5 pb-[34px] gap-[16px] cursor-pointer"
+              className="rounded-2xl bg-consumer-colors-complemantary flex flex-col items-end justify-start pt-2.5 px-2.5 pb-[34px] gap-[16px] cursor-pointer"
               onClick={onPreferencesTileContainer2Click}
             >
               <div className="w-[110px] flex flex-col items-end justify-start gap-[10px]">
-                <div className="w-3.5 h-3.5 relative rounded-[50%] bg-neutral-1" />
+                <div className="w-3.5 h-3.5 relative rounded-[50%] bg-m3-sys-light-on-primary" />
                 <div className="self-stretch flex flex-row items-start justify-start">
                   <img
                     className="h-[60px] w-[60px] relative overflow-hidden shrink-0"

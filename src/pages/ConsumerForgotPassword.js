@@ -8,7 +8,7 @@ import {
 
 const ConsumerForgotPassword = () => {
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[193px] tracking-[normal] leading-[normal] text-left text-xl text-neutral-10 font-web-primary-h3-primary-dm-sans mq750:gap-[96px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[48px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
+    <div className="w-full relative bg-m3-sys-light-on-primary overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[193px] tracking-[normal] leading-[normal] text-left text-xl text-neutral-10 font-web-secondary-underline-subtitle2-dm-sans mq750:gap-[96px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[48px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
       <div className="w-[404px] flex flex-col items-start justify-start pt-[275px] px-0 pb-0 box-border min-w-[404px] max-w-full mq750:pt-[179px] mq750:box-border mq750:min-w-full mq1125:flex-1">
         <div className="self-stretch flex flex-col items-start justify-start gap-[32px] max-w-full mq450:gap-[16px]">
           <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
@@ -20,9 +20,9 @@ const ConsumerForgotPassword = () => {
               to reset your password.
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-start max-w-full text-xs text-text-secondary font-h5-medium">
+          <div className="self-stretch flex flex-row items-start justify-start max-w-full text-xs text-text-secondary font-components-helper-text">
             <TextField
-              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[242px] max-w-full"
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-secondary-underline-subtitle2-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[242px] max-w-full"
               color="primary"
               label="Email"
               placeholder="user@email.com"

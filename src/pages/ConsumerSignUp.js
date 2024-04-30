@@ -13,15 +13,15 @@ const ConsumerSignUp = () => {
     setShowPassword(!showPassword);
   };
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[165px] tracking-[normal] leading-[normal] text-left text-29xl text-m3-black font-web-primary-h3-primary-dm-sans mq450:gap-[41px] mq450:pl-5 mq450:box-border mq750:gap-[82px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq1125:flex-wrap">
+    <div className="w-full relative bg-m3-sys-light-on-primary overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[165px] tracking-[normal] leading-[normal] text-left text-29xl text-m3-black font-web-secondary-underline-subtitle2-dm-sans mq450:gap-[41px] mq450:pl-5 mq450:box-border mq750:gap-[82px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq1125:flex-wrap">
       <div className="w-[432px] flex flex-col items-start justify-start pt-[78.6px] px-0 pb-0 box-border min-w-[432px] max-w-full mq450:pt-[33px] mq450:box-border mq750:min-w-full mq1050:pt-[51px] mq1050:box-border mq1125:flex-1">
         <form className="m-0 self-stretch flex flex-col items-start justify-start gap-[32px] max-w-full mq450:gap-[16px]">
-          <div className="relative text-base leading-[24px] font-web-primary-h3-primary-dm-sans text-m3-black text-left inline-block max-w-full">
+          <div className="relative text-base leading-[24px] font-web-secondary-underline-subtitle2-dm-sans text-m3-black text-left inline-block max-w-full">
             Enter your credentials to create an account
           </div>
           <div className="self-stretch flex flex-row items-start justify-start max-w-full">
             <TextField
-              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-secondary-underline-subtitle2-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
               color="primary"
               label="First Name"
               placeholder="John"
@@ -31,14 +31,14 @@ const ConsumerSignUp = () => {
               sx={{ "& .MuiInputBase-root": { height: "53px" } }}
             />
             <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
-              <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-text-secondary text-left">
+              <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-components-helper-text text-text-secondary text-left">
                 Helper text
               </div>
             </div>
           </div>
           <div className="self-stretch flex flex-row items-start justify-start max-w-full">
             <TextField
-              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-secondary-underline-subtitle2-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
               color="primary"
               label="Last Name"
               placeholder="Adams"
@@ -47,14 +47,14 @@ const ConsumerSignUp = () => {
               sx={{ "& .MuiInputBase-root": { height: "53px" } }}
             />
             <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
-              <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-text-secondary text-left">
+              <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-components-helper-text text-text-secondary text-left">
                 Helper text
               </div>
             </div>
           </div>
           <div className="self-stretch flex flex-row items-start justify-start max-w-full">
             <TextField
-              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-secondary-underline-subtitle2-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full"
               color="primary"
               label="Email"
               placeholder="user@email.com"
@@ -65,14 +65,14 @@ const ConsumerSignUp = () => {
               sx={{ "& .MuiInputBase-root": { height: "53px" } }}
             />
             <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
-              <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-text-secondary text-left">
+              <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-components-helper-text text-text-secondary text-left">
                 Helper text
               </div>
             </div>
           </div>
           <div className="self-stretch flex flex-row items-start justify-start max-w-full">
             <TextField
-              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full mq450:h-auto"
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-secondary-underline-subtitle2-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[250px] max-w-full mq450:h-auto"
               color="primary"
               label="Password"
               required={true}
@@ -96,7 +96,7 @@ const ConsumerSignUp = () => {
               sx={{ "& .MuiInputBase-root": { height: "53px" } }}
             />
             <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
-              <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-text-secondary text-left">
+              <div className="self-stretch relative text-xs tracking-[0.4px] leading-[166%] font-components-helper-text text-text-secondary text-left">
                 Helper text
               </div>
             </div>
@@ -121,7 +121,7 @@ const ConsumerSignUp = () => {
             <div className="flex-1 flex flex-col items-start justify-start pt-[9px] px-0 pb-0 box-border min-w-[129px]">
               <div className="self-stretch h-0.5 relative box-border border-t-[2px] border-solid border-whitesmoke-300" />
             </div>
-            <div className="relative text-xs leading-[18px] font-web-primary-h3-primary-dm-sans text-neutral-10 text-left inline-block min-w-[14px] mq450:w-full mq450:h-3.5">
+            <div className="relative text-xs leading-[18px] font-web-secondary-underline-subtitle2-dm-sans text-neutral-10 text-left inline-block min-w-[14px] mq450:w-full mq450:h-3.5">
               Or
             </div>
             <div className="flex-1 flex flex-col items-start justify-start pt-[9px] px-0 pb-0 box-border min-w-[129px]">
@@ -156,17 +156,17 @@ const ConsumerSignUp = () => {
                 src="/facebook.svg"
               />
               <div className="flex flex-col items-start justify-start pt-px px-0 pb-0">
-                <div className="relative text-sm leading-[22px] font-semibold font-web-primary-h3-primary-dm-sans text-neutral-10 text-left">
+                <div className="relative text-sm leading-[22px] font-semibold font-web-secondary-underline-subtitle2-dm-sans text-neutral-10 text-left">
                   Sign up with Facebook
                 </div>
               </div>
             </div>
           </div>
           <div className="flex flex-row items-start justify-start gap-[8px]">
-            <div className="relative text-sm leading-[22px] font-web-primary-h3-primary-dm-sans text-gray-200 text-left whitespace-nowrap">
+            <div className="relative text-sm leading-[22px] font-web-secondary-underline-subtitle2-dm-sans text-gray-200 text-left whitespace-nowrap">
               Don’t have an account?
             </div>
-            <a className="[text-decoration:underline] relative text-sm leading-[22px] font-semibold font-web-primary-h3-primary-dm-sans text-material-theme-source-primary text-left inline-block min-w-[45px] whitespace-nowrap">
+            <a className="[text-decoration:underline] relative text-sm leading-[22px] font-semibold font-web-secondary-underline-subtitle2-dm-sans text-material-theme-source-primary text-left inline-block min-w-[45px] whitespace-nowrap">
               Sign In
             </a>
           </div>

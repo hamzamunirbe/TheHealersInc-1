@@ -13,7 +13,7 @@ const ConsumerResetPassword = () => {
     setShowPassword(!showPassword);
   };
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[197px] tracking-[normal] leading-[normal] text-left text-xs text-text-secondary font-web-primary-h3-primary-dm-sans mq750:gap-[98px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[49px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
+    <div className="w-full relative bg-m3-sys-light-on-primary overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[197px] tracking-[normal] leading-[normal] text-left text-xs text-text-secondary font-web-secondary-underline-subtitle2-dm-sans mq750:gap-[98px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[49px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
       <div className="h-2 w-2 relative overflow-hidden shrink-0 hidden z-[0]" />
       <div className="w-[400px] flex flex-col items-start justify-start pt-[62.5px] px-0 pb-0 box-border min-w-[400px] max-w-full mq1050:pt-[41px] mq1050:box-border mq750:min-w-full mq450:pt-[27px] mq450:box-border mq1125:flex-1">
         <div className="self-stretch flex flex-col items-end justify-start gap-[32.3px] max-w-full mq450:gap-[16px]">
@@ -62,9 +62,9 @@ const ConsumerResetPassword = () => {
                   </div>
                   <div className="h-0 w-6 relative hidden" />
                 </div>
-                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
               </div>
-              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                 <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                   Helper text
                 </div>
@@ -104,9 +104,9 @@ const ConsumerResetPassword = () => {
                   </div>
                   <div className="h-0 w-6 relative hidden" />
                 </div>
-                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
               </div>
-              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                 <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                   Helper text
                 </div>
@@ -146,9 +146,9 @@ const ConsumerResetPassword = () => {
                   </div>
                   <div className="h-0 w-6 relative hidden" />
                 </div>
-                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
               </div>
-              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                 <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                   Helper text
                 </div>
@@ -187,9 +187,9 @@ const ConsumerResetPassword = () => {
                   </div>
                   <div className="h-0 w-6 relative hidden" />
                 </div>
-                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
               </div>
-              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                 <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                   Helper text
                 </div>
@@ -228,9 +228,9 @@ const ConsumerResetPassword = () => {
                   </div>
                   <div className="h-0 w-6 relative hidden" />
                 </div>
-                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
               </div>
-              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                 <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                   Helper text
                 </div>
@@ -269,9 +269,9 @@ const ConsumerResetPassword = () => {
                   </div>
                   <div className="h-0 w-6 relative hidden" />
                 </div>
-                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
               </div>
-              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                 <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                   Helper text
                 </div>
@@ -289,9 +289,9 @@ const ConsumerResetPassword = () => {
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-start max-w-full font-h5-medium">
+          <div className="self-stretch flex flex-row items-start justify-start max-w-full font-components-helper-text">
             <TextField
-              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[240px] max-w-full"
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-secondary-underline-subtitle2-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[240px] max-w-full"
               color="primary"
               label="New Password"
               required={true}
@@ -320,9 +320,9 @@ const ConsumerResetPassword = () => {
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-start max-w-full font-h5-medium">
+          <div className="self-stretch flex flex-row items-start justify-start max-w-full font-components-helper-text">
             <TextField
-              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[240px] max-w-full mq450:h-auto"
+              className="[border:none] bg-[transparent] h-[53px] flex-1 font-web-secondary-underline-subtitle2-dm-sans text-base text-m3-ref-neutral-neutral20-200 min-w-[240px] max-w-full mq450:h-auto"
               color="primary"
               label="Confirm Password"
               required={true}

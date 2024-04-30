@@ -28,8 +28,8 @@ const PractitionerDetails = () => {
   }, []);
 
   return (
-    <div className="w-full relative bg-neutral-1 overflow-y-auto flex flex-col items-start justify-start pt-0 px-0 pb-10 box-border gap-[80px] tracking-[normal] leading-[normal] mq450:gap-[20px] mq750:gap-[40px]">
-      <header className="self-stretch shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] bg-neutral-1 flex flex-row items-start justify-center py-[22px] px-5 gap-[704px] sticky top-[0] z-[99] border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq450:gap-[88px] mq750:gap-[176px]">
+    <div className="w-full relative bg-m3-sys-light-on-primary overflow-y-auto flex flex-col items-start justify-start pt-0 px-0 pb-10 box-border gap-[80px] tracking-[normal] leading-[normal] mq450:gap-[20px] mq750:gap-[40px]">
+      <header className="self-stretch shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] bg-m3-sys-light-on-primary flex flex-row items-start justify-center py-[22px] px-5 gap-[704px] sticky top-[0] z-[99] border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq450:gap-[88px] mq750:gap-[176px]">
         <div className="w-[236px] flex flex-col items-start justify-start pt-[7px] px-0 pb-0 box-border">
           <div className="self-stretch flex flex-row items-end justify-start gap-[12.4px]">
             <img
@@ -48,7 +48,7 @@ const PractitionerDetails = () => {
             </div>
           </div>
         </div>
-        <div className="w-[260px] shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-13xl bg-neutral-1 overflow-hidden shrink-0 flex flex-row items-center justify-start py-2.5 px-4 box-border gap-[20px]">
+        <div className="w-[260px] shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-13xl bg-m3-sys-light-on-primary overflow-hidden shrink-0 flex flex-row items-center justify-start py-2.5 px-4 box-border gap-[20px]">
           <div className="flex flex-row items-center justify-start">
             <img
               className="h-8 w-8 relative overflow-hidden shrink-0"
@@ -58,7 +58,7 @@ const PractitionerDetails = () => {
             />
           </div>
           <TextField
-            className="h-[41px] flex-1 font-web-primary-h3-primary-dm-sans font-semibold text-base text-m3-black w-auto"
+            className="h-[41px] flex-1 font-web-secondary-underline-subtitle2-dm-sans font-semibold text-base text-m3-black w-auto"
             variant="standard"
             select
             value={1}
@@ -106,7 +106,7 @@ const PractitionerDetails = () => {
         </div>
       </header>
       <main className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
-        <section className="w-[1200px] flex flex-col items-start justify-start gap-[120px] max-w-full text-left text-base text-m3-black font-web-primary-h3-primary-dm-sans lg:gap-[60px] mq750:gap-[30px]">
+        <section className="w-[1200px] flex flex-col items-start justify-start gap-[120px] max-w-full text-left text-base text-m3-black font-web-secondary-underline-subtitle2-dm-sans lg:gap-[60px] mq750:gap-[30px]">
           <div className="self-stretch flex flex-col items-start justify-start gap-[56px] max-w-full mq750:gap-[28px]">
             <div className="self-stretch flex flex-row items-start justify-start gap-[80px] max-w-full lg:gap-[40px] mq750:gap-[20px] mq1050:flex-wrap">
               <div className="flex-1 rounded-3xl overflow-hidden flex flex-row items-start justify-start min-w-[469px] max-w-full mq750:min-w-full">
@@ -130,7 +130,7 @@ const PractitionerDetails = () => {
                   src="https://www.google.com/maps/@49.2386566,-123.1258304,13z?entry=ttu"
                 />
                 <div className="self-stretch flex flex-row items-start justify-start p-2 box-border gap-[15px] max-w-full mq450:flex-wrap">
-                  <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="w-6 h-6 relative overflow-hidden shrink-0"
                       loading="lazy"
@@ -143,7 +143,7 @@ const PractitionerDetails = () => {
                   </div>
                 </div>
                 <div className="self-stretch flex flex-row items-start justify-start p-2 box-border gap-[15px] max-w-full mq450:flex-wrap">
-                  <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="w-6 h-6 relative overflow-hidden shrink-0"
                       loading="lazy"
@@ -156,7 +156,7 @@ const PractitionerDetails = () => {
                   </div>
                 </div>
                 <div className="self-stretch hidden flex-row items-start justify-start p-2 box-border gap-[15px] max-w-full mq450:flex-wrap">
-                  <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="w-6 h-6 relative overflow-hidden shrink-0"
                       alt=""
@@ -188,7 +188,7 @@ const PractitionerDetails = () => {
                 </Button>
               </div>
             </div>
-            <div className="flex flex-row items-start justify-start text-sm text-royalblue font-h5-medium">
+            <div className="flex flex-row items-start justify-start text-sm text-consumer-colors-complemantary font-components-helper-text">
               <div
                 className="h-[42px] w-[97px] flex flex-col items-center justify-center relative cursor-pointer"
                 onClick={onTabContainerClick}
@@ -206,7 +206,7 @@ const PractitionerDetails = () => {
                     Info
                   </div>
                 </div>
-                <div className="w-[calc(100%_+_2px)] h-0.5 absolute !m-[0] right-[-2px] bottom-[-2px] left-[0px] box-border border-t-[2px] border-solid border-royalblue" />
+                <div className="w-[calc(100%_+_2px)] h-0.5 absolute !m-[0] right-[-2px] bottom-[-2px] left-[0px] box-border border-t-[2px] border-solid border-consumer-colors-complemantary" />
               </div>
               <div
                 className="flex flex-col items-center justify-center cursor-pointer text-neutral-10"
@@ -254,7 +254,7 @@ const PractitionerDetails = () => {
                   <div className="self-stretch flex flex-row items-start justify-start max-w-full text-base">
                     <div className="flex-1 relative leading-[24px] [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:4] [-webkit-box-orient:vertical] max-w-full">
                       <span>{`At [Vendor Name], we're committed to providing exceptional wellness experiences that cater to your unique needs. Our team of dedicated practitioners brings a wealth of knowledge and expertise to every session, ensuring that you receive personalized care and support on your journey to optimal health and vitality. Whether you're seeking relaxation, `}</span>
-                      <span className="[text-decoration:underline] text-royalblue">
+                      <span className="[text-decoration:underline] text-consumer-colors-complemantary">
                         Read more
                       </span>
                       <span className="whitespace-pre-wrap">
@@ -274,48 +274,48 @@ const PractitionerDetails = () => {
                 <div className="flex flex-row flex-wrap items-start justify-start py-0 pr-[392px] pl-0 gap-[16px] mq450:pr-5 mq450:box-border mq750:pr-[196px] mq750:box-border">
                   <button className="cursor-pointer py-0.5 px-[3px] bg-[transparent] rounded overflow-hidden flex flex-row items-center justify-start border-[1px] border-solid border-neutral-7">
                     <div className="rounded-81xl bg-components-avatar-fill hidden flex-col items-center justify-center relative">
-                      <div className="w-2 h-2 absolute !m-[0] right-[-2px] bottom-[-2px] rounded-45xl bg-neutral-1 hidden z-[0]">
+                      <div className="w-2 h-2 absolute !m-[0] right-[-2px] bottom-[-2px] rounded-45xl bg-m3-sys-light-on-primary hidden z-[0]">
                         <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-81xl bg-success-main overflow-hidden flex flex-row items-start justify-start">
                           <div className="h-2 w-2 relative rounded-81xl" />
                         </div>
                       </div>
-                      <div className="w-[17px] absolute !m-[0] top-[calc(50%_-_10px)] left-[calc(50%_-_8.5px)] text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-neutral-1 text-center inline-block z-[1]">
+                      <div className="w-[17px] absolute !m-[0] top-[calc(50%_-_10px)] left-[calc(50%_-_8.5px)] text-xs tracking-[0.4px] leading-[166%] font-components-helper-text text-m3-sys-light-on-primary text-center inline-block z-[1]">
                         OP
                       </div>
                       <div className="w-6 h-6 relative [transform:_rotate(-90deg)] z-[2]" />
                     </div>
                     <div className="flex flex-col items-start justify-start py-[3px] px-1.5">
-                      <b className="relative text-xs leading-[18px] uppercase font-web-primary-h3-primary-dm-sans text-neutral-10 text-left whitespace-nowrap">
+                      <b className="relative text-xs leading-[18px] uppercase font-web-secondary-underline-subtitle2-dm-sans text-neutral-10 text-left whitespace-nowrap">
                         09:00 AM to 05:00 PM
                       </b>
                     </div>
                     <img
                       className="h-6 w-6 relative rounded-81xl overflow-hidden shrink-0 hidden min-h-[24px]"
                       alt=""
-                      src="/cancelfilled.svg"
+                      src="/cancelfilled1.svg"
                     />
                   </button>
                   <button className="cursor-pointer py-0.5 px-[3px] bg-[transparent] rounded overflow-hidden flex flex-row items-center justify-start border-[1px] border-solid border-neutral-7">
                     <div className="rounded-81xl bg-components-avatar-fill hidden flex-col items-center justify-center relative">
-                      <div className="w-2 h-2 absolute !m-[0] right-[-2px] bottom-[-2px] rounded-45xl bg-neutral-1 hidden z-[0]">
+                      <div className="w-2 h-2 absolute !m-[0] right-[-2px] bottom-[-2px] rounded-45xl bg-m3-sys-light-on-primary hidden z-[0]">
                         <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-81xl bg-success-main overflow-hidden flex flex-row items-start justify-start">
                           <div className="h-2 w-2 relative rounded-81xl" />
                         </div>
                       </div>
-                      <div className="w-[17px] absolute !m-[0] top-[calc(50%_-_10px)] left-[calc(50%_-_8.5px)] text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-neutral-1 text-center inline-block z-[1]">
+                      <div className="w-[17px] absolute !m-[0] top-[calc(50%_-_10px)] left-[calc(50%_-_8.5px)] text-xs tracking-[0.4px] leading-[166%] font-components-helper-text text-m3-sys-light-on-primary text-center inline-block z-[1]">
                         OP
                       </div>
                       <div className="w-6 h-6 relative [transform:_rotate(-90deg)] z-[2]" />
                     </div>
                     <div className="flex flex-col items-start justify-start py-[3px] px-1.5">
-                      <b className="relative text-xs leading-[18px] uppercase font-web-primary-h3-primary-dm-sans text-neutral-10 text-left whitespace-nowrap">
+                      <b className="relative text-xs leading-[18px] uppercase font-web-secondary-underline-subtitle2-dm-sans text-neutral-10 text-left whitespace-nowrap">
                         09:00 AM to 05:00 PM
                       </b>
                     </div>
                     <img
                       className="h-6 w-6 relative rounded-81xl overflow-hidden shrink-0 hidden min-h-[24px]"
                       alt=""
-                      src="/cancelfilled.svg"
+                      src="/cancelfilled1.svg"
                     />
                   </button>
                 </div>
@@ -334,7 +334,7 @@ const PractitionerDetails = () => {
                     alt=""
                     src="/featured-image@2x.png"
                   />
-                  <div className="self-stretch rounded-t-none rounded-b-xl bg-neutral-1 flex flex-col items-start justify-start p-4 box-border gap-[8px] max-w-full">
+                  <div className="self-stretch rounded-t-none rounded-b-xl bg-m3-sys-light-on-primary flex flex-col items-start justify-start p-4 box-border gap-[8px] max-w-full">
                     <div className="self-stretch flex flex-row items-center justify-between gap-[20px] mq450:flex-wrap">
                       <b className="relative leading-[28px] inline-block min-w-[42px]">
                         Yoga
@@ -357,7 +357,7 @@ const PractitionerDetails = () => {
                           className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                           loading="lazy"
                           alt=""
-                          src="/icons.svg"
+                          src="/icons1.svg"
                         />
                         <div className="relative leading-[22px] font-semibold inline-block min-w-[44px]">
                           Online
@@ -384,7 +384,7 @@ const PractitionerDetails = () => {
                     alt=""
                     src="/featured-image-1@2x.png"
                   />
-                  <div className="self-stretch rounded-t-none rounded-b-xl bg-neutral-1 flex flex-col items-start justify-start p-4 box-border gap-[8px] max-w-full">
+                  <div className="self-stretch rounded-t-none rounded-b-xl bg-m3-sys-light-on-primary flex flex-col items-start justify-start p-4 box-border gap-[8px] max-w-full">
                     <div className="self-stretch flex flex-row items-center justify-between gap-[20px] mq450:flex-wrap">
                       <b className="relative leading-[28px] inline-block min-w-[97px]">
                         Meditation
@@ -407,7 +407,7 @@ const PractitionerDetails = () => {
                           className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                           loading="lazy"
                           alt=""
-                          src="/icons.svg"
+                          src="/icons1.svg"
                         />
                         <div className="relative leading-[22px] font-semibold inline-block min-w-[44px]">
                           Online
@@ -433,7 +433,7 @@ const PractitionerDetails = () => {
                   Similar Practitioners:
                 </b>
                 <div className="self-stretch grid flex-row items-start justify-start py-0 px-0 gap-[40px] grid-cols-[repeat(3,_minmax(223px,_1fr))] text-xl text-neutral-10 mq450:grid-cols-[minmax(223px,_1fr)] mq750:gap-[20px] mq750:grid-cols-[repeat(2,_minmax(223px,_387px))] mq750:justify-center">
-                  <div className="shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-neutral-1 flex flex-row items-start justify-start">
+                  <div className="shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start">
                     <div className="flex-1 flex flex-col items-center justify-start">
                       <div className="self-stretch flex flex-row items-center justify-start p-4">
                         <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -461,8 +461,8 @@ const PractitionerDetails = () => {
                           src="/media1@2x.png"
                         />
                       </div>
-                      <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
-                        <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                      <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-components-helper-text">
+                        <div className="flex-1 relative leading-[22px] font-web-secondary-underline-subtitle2-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
                           Howe Street, Vancouver
                         </div>
                         <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
@@ -473,7 +473,7 @@ const PractitionerDetails = () => {
                               </div>
                             </div>
                           </div>
-                          <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                          <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-m3-sys-light-on-primary">
                             <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                               <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                                 Enabled
@@ -485,7 +485,7 @@ const PractitionerDetails = () => {
                           <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
                             1 mile
                           </div>
-                          <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                          <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                             <img
                               className="w-6 h-6 relative overflow-hidden shrink-0"
                               loading="lazy"
@@ -497,7 +497,7 @@ const PractitionerDetails = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-neutral-1 flex flex-row items-start justify-start">
+                  <div className="shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start">
                     <div className="flex-1 flex flex-col items-center justify-start">
                       <div className="self-stretch flex flex-row items-center justify-start p-4">
                         <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -523,8 +523,8 @@ const PractitionerDetails = () => {
                           src="/media1@2x.png"
                         />
                       </div>
-                      <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
-                        <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                      <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-components-helper-text">
+                        <div className="flex-1 relative leading-[22px] font-web-secondary-underline-subtitle2-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
                           Howe Street, Vancouver
                         </div>
                         <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
@@ -535,7 +535,7 @@ const PractitionerDetails = () => {
                               </div>
                             </div>
                           </div>
-                          <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                          <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-m3-sys-light-on-primary">
                             <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                               <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                                 Enabled
@@ -547,7 +547,7 @@ const PractitionerDetails = () => {
                           <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
                             1 mile
                           </div>
-                          <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                          <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                             <img
                               className="w-6 h-6 relative overflow-hidden shrink-0"
                               loading="lazy"
@@ -559,7 +559,7 @@ const PractitionerDetails = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-neutral-1 flex flex-row items-start justify-start">
+                  <div className="shadow-[0px_1px_2px_rgba(0,_0,_0,_0.3),_0px_1px_3px_1px_rgba(0,_0,_0,_0.15)] rounded-xl bg-m3-sys-light-on-primary flex flex-row items-start justify-start">
                     <div className="flex-1 flex flex-col items-center justify-start">
                       <div className="self-stretch flex flex-row items-center justify-start p-4">
                         <div className="flex-1 flex flex-row items-center justify-start gap-[16px]">
@@ -588,8 +588,8 @@ const PractitionerDetails = () => {
                           src="/media1@2x.png"
                         />
                       </div>
-                      <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-h5-medium">
-                        <div className="flex-1 relative leading-[22px] font-web-primary-h3-primary-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
+                      <div className="self-stretch flex flex-row items-start justify-start py-6 px-4 gap-[16px] text-sm text-neutral-8 font-components-helper-text">
+                        <div className="flex-1 relative leading-[22px] font-web-secondary-underline-subtitle2-dm-sans overflow-hidden text-ellipsis whitespace-nowrap">
                           Howe Street, Vancouver
                         </div>
                         <div className="w-[328px] hidden flex-row items-start justify-end gap-[8px] max-w-full text-center text-m3-sys-light-primary mq450:flex-wrap">
@@ -600,7 +600,7 @@ const PractitionerDetails = () => {
                               </div>
                             </div>
                           </div>
-                          <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-neutral-1">
+                          <div className="h-10 rounded-81xl bg-m3-sys-light-primary overflow-hidden flex flex-col items-center justify-center text-m3-sys-light-on-primary">
                             <div className="w-[99px] flex-1 flex flex-row items-center justify-center py-2.5 px-6 box-border">
                               <div className="self-stretch flex-1 relative tracking-[0.1px] leading-[20px] font-medium flex items-center justify-center">
                                 Enabled
@@ -612,7 +612,7 @@ const PractitionerDetails = () => {
                           <div className="relative leading-[24px] font-medium inline-block min-w-[44px]">
                             1 mile
                           </div>
-                          <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                          <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                             <img
                               className="w-6 h-6 relative overflow-hidden shrink-0"
                               alt=""
@@ -627,7 +627,7 @@ const PractitionerDetails = () => {
               </div>
             </div>
           </div>
-          <footer className="self-stretch flex flex-col items-start justify-start gap-[32px] text-left text-mid text-gray-200 font-web-primary-h3-primary-dm-sans mq750:gap-[16px]">
+          <footer className="self-stretch flex flex-col items-start justify-start gap-[32px] text-left text-mid text-gray-200 font-gilroy-regular mq750:gap-[16px]">
             <div className="flex flex-row items-start justify-start gap-[54.9px] lg:flex-wrap mq750:gap-[27px]">
               <div className="w-[248px] flex flex-col items-start justify-start gap-[32px] text-mini text-gray-700">
                 <div className="w-[200px] flex flex-row items-end justify-start gap-[10.5px]">
@@ -703,7 +703,7 @@ const PractitionerDetails = () => {
                   Cookie Preferences
                 </div>
               </div>
-              <div className="w-[135.9px] flex flex-col items-start justify-start gap-[16px] text-4xs-4 text-neutral-1 font-open-sans">
+              <div className="w-[135.9px] flex flex-col items-start justify-start gap-[16px] text-4xs-4 text-m3-sys-light-on-primary font-open-sans">
                 <img
                   className="self-stretch h-10 relative max-w-full overflow-hidden shrink-0"
                   loading="lazy"

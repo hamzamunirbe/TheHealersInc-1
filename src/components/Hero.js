@@ -9,7 +9,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="self-stretch flex flex-row items-start justify-center py-0 pr-[22px] pl-5 box-border max-w-full text-center text-41xl text-neutral-1 font-web-primary-h3-primary-dm-sans">
+    <div className="self-stretch flex flex-row items-start justify-center py-0 pr-[22px] pl-5 box-border max-w-full text-center text-41xl text-m3-sys-light-on-primary font-web-secondary-underline-subtitle2-dm-sans">
       <div className="w-[612px] flex flex-col items-center justify-start gap-[40px] max-w-full z-[2] mq750:gap-[20px]">
         <div className="w-[599px] flex flex-col items-center justify-start py-0 px-5 box-border gap-[24px] max-w-full">
           <h1 className="m-0 self-stretch relative text-inherit tracking-[-2px] leading-[65px] font-bold font-inherit mq750:text-29xl mq750:leading-[52px] mq450:text-17xl mq450:leading-[39px]">
@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="self-stretch overflow-hidden flex flex-col items-start justify-start gap-[8px] text-left text-mini text-gray-500">
           <div className="self-stretch rounded-3xs bg-darkorange flex flex-row items-center justify-start py-6 px-8 gap-[16px] mq750:flex-wrap">
             <TextField
-              className="[border:none] bg-[transparent] flex-1 font-web-primary-h3-primary-dm-sans text-mini text-gray-700 min-w-[127px] whitespace-nowrap mq750:flex-1"
+              className="[border:none] bg-[transparent] flex-1 font-web-secondary-underline-subtitle2-dm-sans text-mini text-gray-700 min-w-[127px] whitespace-nowrap mq750:flex-1"
               color="primary"
               label="Search"
               placeholder="e.g; yoga"

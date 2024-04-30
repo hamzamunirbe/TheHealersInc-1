@@ -11,8 +11,8 @@ import {
 
 const ConsumerPreferences = () => {
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[121px] box-border gap-[56px] tracking-[normal] leading-[normal] mq750:gap-[28px]">
-      <header className="self-stretch shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] bg-neutral-1 flex flex-row items-start justify-center py-[22px] px-5 gap-[724px] sticky top-[0] z-[99] border-[1px] border-solid border-gainsboro-100 lg:gap-[362px] mq450:gap-[90px] mq750:gap-[181px]">
+    <div className="w-full relative bg-m3-sys-light-on-primary overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[121px] box-border gap-[56px] tracking-[normal] leading-[normal] mq750:gap-[28px]">
+      <header className="self-stretch shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] bg-m3-sys-light-on-primary flex flex-row items-start justify-center py-[22px] px-5 gap-[724px] sticky top-[0] z-[99] border-[1px] border-solid border-gainsboro-100 lg:gap-[362px] mq450:gap-[90px] mq750:gap-[181px]">
         <div className="w-[236px] flex flex-col items-start justify-start pt-[7px] px-0 pb-0 box-border">
           <div className="self-stretch flex flex-row items-end justify-start gap-[12.4px]">
             <img
@@ -31,7 +31,7 @@ const ConsumerPreferences = () => {
             </div>
           </div>
         </div>
-        <div className="w-60 shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-13xl bg-neutral-1 overflow-hidden shrink-0 flex flex-row items-center justify-between py-2.5 px-4 box-border gap-[0px] [row-gap:20px]">
+        <div className="w-60 shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-13xl bg-m3-sys-light-on-primary overflow-hidden shrink-0 flex flex-row items-center justify-between py-2.5 px-4 box-border gap-[0px] [row-gap:20px]">
           <div className="flex flex-row items-center justify-start">
             <img
               className="h-8 w-8 relative overflow-hidden shrink-0"
@@ -41,7 +41,7 @@ const ConsumerPreferences = () => {
             />
           </div>
           <TextField
-            className="h-[41px] w-44 font-web-primary-h3-primary-dm-sans font-semibold text-base text-m3-black"
+            className="h-[41px] w-44 font-web-secondary-underline-subtitle2-dm-sans font-semibold text-base text-m3-black"
             variant="standard"
             select
             value={1}
@@ -89,7 +89,7 @@ const ConsumerPreferences = () => {
         </div>
       </header>
       <main className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
-        <section className="w-[1200px] flex flex-col items-start justify-start gap-[40px] max-w-full text-center text-29xl text-gray-800 font-web-primary-h3-primary-dm-sans mq750:gap-[20px]">
+        <section className="w-[1200px] flex flex-col items-start justify-start gap-[40px] max-w-full text-center text-29xl text-gray-800 font-web-secondary-underline-subtitle2-dm-sans mq750:gap-[20px]">
           <div className="self-stretch h-[424px] relative rounded-2xl bg-[url('/public/imageprefernces@2x.png')] bg-cover bg-no-repeat bg-[top]">
             <img
               className="absolute top-[0px] left-[calc(50%_-_600px)] rounded-2xl w-full h-full object-cover hidden"

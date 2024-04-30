@@ -2,7 +2,7 @@ import DivReason from "./DivReason";
 
 const SectionWhyChooseUs = () => {
   return (
-    <section className="self-stretch bg-whitesmoke-100 flex flex-row items-center justify-start py-0 px-[100px] box-border gap-[56px] max-w-full text-left text-29xl text-gray-200 font-web-primary-h3-primary-dm-sans mq1225:flex-wrap mq1225:gap-[28px] mq1225:pl-[50px] mq1225:pr-[50px] mq1225:box-border mq750:pl-[25px] mq750:pr-[25px] mq750:box-border">
+    <section className="self-stretch bg-whitesmoke-100 flex flex-row items-center justify-start py-0 px-[100px] box-border gap-[56px] max-w-full text-left text-29xl text-gray-200 font-web-secondary-underline-subtitle2-dm-sans mq1225:flex-wrap mq1225:gap-[28px] mq1225:pl-[50px] mq1225:pr-[50px] mq1225:box-border mq750:pl-[25px] mq750:pr-[25px] mq750:box-border">
       <img
         className="h-[796px] flex-1 relative max-w-full overflow-hidden object-cover min-w-[385px] min-h-[796px] mq1225:flex-1 mq750:min-w-full"
         loading="lazy"

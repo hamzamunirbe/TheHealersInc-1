@@ -1,6 +1,6 @@
 const DivReason = ({ h5, paragraph }) => {
   return (
-    <div className="self-stretch flex flex-row items-center justify-start py-0 pr-[18px] pl-0 box-border gap-[32px] min-w-[430px] text-left text-2xl text-gray-200 font-web-primary-h3-primary-dm-sans mq750:flex-wrap mq450:gap-[16px]">
+    <div className="self-stretch flex flex-row items-center justify-start py-0 pr-[18px] pl-0 box-border gap-[32px] min-w-[430px] text-left text-2xl text-gray-200 font-web-secondary-underline-subtitle2-dm-sans mq750:flex-wrap mq450:gap-[16px]">
       <img
         className="h-20 w-20 relative"
         loading="lazy"

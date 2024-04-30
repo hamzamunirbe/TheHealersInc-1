@@ -8,7 +8,7 @@ import {
 
 const ConsumerSignUpEmailVer = () => {
   return (
-    <div className="w-full relative bg-neutral-1 overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[197px] tracking-[normal] leading-[normal] text-left text-smi text-m3-black font-web-primary-h3-primary-dm-sans mq750:gap-[98px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[49px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
+    <div className="w-full relative bg-m3-sys-light-on-primary overflow-hidden flex flex-row items-start justify-start py-20 pr-20 pl-[163px] box-border gap-[197px] tracking-[normal] leading-[normal] text-left text-smi text-m3-black font-web-secondary-underline-subtitle2-dm-sans mq750:gap-[98px] mq750:pl-[81px] mq750:pr-10 mq750:box-border mq450:gap-[49px] mq450:pl-5 mq450:box-border mq1125:flex-wrap">
       <div className="h-[57.5px] w-[404px] hidden flex-col items-start justify-start max-w-full z-[0] font-poppins">
         <div className="w-10 flex flex-row items-start justify-start">
           <div className="h-5 flex-1 relative font-medium inline-block">
@@ -64,9 +64,9 @@ const ConsumerSignUpEmailVer = () => {
                   </div>
                   <div className="h-0 w-6 relative hidden" />
                 </div>
-                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
               </div>
-              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                 <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                   Helper text
                 </div>
@@ -106,9 +106,9 @@ const ConsumerSignUpEmailVer = () => {
                   </div>
                   <div className="h-0 w-6 relative hidden" />
                 </div>
-                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
               </div>
-              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                 <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                   Helper text
                 </div>
@@ -148,9 +148,9 @@ const ConsumerSignUpEmailVer = () => {
                   </div>
                   <div className="h-0 w-6 relative hidden" />
                 </div>
-                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
               </div>
-              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                 <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                   Helper text
                 </div>
@@ -190,9 +190,9 @@ const ConsumerSignUpEmailVer = () => {
                   </div>
                   <div className="h-0 w-6 relative hidden" />
                 </div>
-                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
               </div>
-              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                 <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                   Helper text
                 </div>
@@ -232,9 +232,9 @@ const ConsumerSignUpEmailVer = () => {
                   </div>
                   <div className="h-0 w-6 relative hidden" />
                 </div>
-                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
               </div>
-              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                 <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                   Helper text
                 </div>
@@ -274,9 +274,9 @@ const ConsumerSignUpEmailVer = () => {
                   </div>
                   <div className="h-0 w-6 relative hidden" />
                 </div>
-                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                <div className="w-10 h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
               </div>
-              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+              <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                 <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                   Helper text
                 </div>

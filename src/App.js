@@ -6,7 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import FirstLandingPage from "./pages/FirstLandingPage";
-import ConsumerLandingPage from "./pages/ConsumerLandingPage";
+import PractitionerSignIn from "./pages/PractitionerSignIn";
 import PractitionerLandingPage from "./pages/PractitionerLandingPage";
 import ConsumerPreferences from "./pages/ConsumerPreferences";
 import ConsumerPreferences1 from "./pages/ConsumerPreferences1";
@@ -14,6 +14,7 @@ import ConsumerPreferences2 from "./pages/ConsumerPreferences2";
 import ConsumerPreferences3 from "./pages/ConsumerPreferences3";
 import ConsumerPreferences4 from "./pages/ConsumerPreferences4";
 import PractitionerDetails from "./pages/PractitionerDetails";
+import AppointmentCardPractitio from "./pages/AppointmentCardPractitio";
 import ServiceDetails from "./pages/ServiceDetails";
 import SearchResultsPractitioners from "./pages/SearchResultsPractitioners";
 import SearchResultsServices from "./pages/SearchResultsServices";
@@ -22,6 +23,24 @@ import ConsumerForgotPassword from "./pages/ConsumerForgotPassword";
 import ConsumerResetPassword from "./pages/ConsumerResetPassword";
 import ConsumerSignUp from "./pages/ConsumerSignUp";
 import ConsumerSignUpEmailVer from "./pages/ConsumerSignUpEmailVer";
+import ConsumerProfile from "./pages/ConsumerProfile";
+import PractitionerForgotPassword from "./pages/PractitionerForgotPassword";
+import ConsumerLandingPage from "./pages/ConsumerLandingPage";
+import PractitionerForgotPassword1 from "./pages/PractitionerForgotPassword1";
+import PractitionerSignUp from "./pages/PractitionerSignUp";
+import PractitionerSignUpVerif from "./pages/PractitionerSignUpVerif";
+import PractitionerProfileDetailing from "./pages/PractitionerProfileDetailing";
+import PractitionerProfileDetailing1 from "./pages/PractitionerProfileDetailing1";
+import PractitionerProfileDetailing2 from "./pages/PractitionerProfileDetailing2";
+import PractitionerDashboard from "./pages/PractitionerDashboard";
+import Appointments from "./pages/Appointments";
+import Inbox from "./pages/Inbox";
+import Schedule from "./pages/Schedule";
+import Services from "./pages/Services";
+import Profile from "./pages/Profile";
+import UpdateSchedule from "./pages/UpdateSchedule";
+import AddSchedule from "./pages/AddSchedule";
+import AddEditServices from "./pages/AddEditServices";
 
 function App() {
   const action = useNavigationType();
@@ -43,7 +62,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/consumer-landing-page":
+      case "/practitioner-sign-in":
         title = "";
         metaDescription = "";
         break;
@@ -72,6 +91,10 @@ function App() {
         metaDescription = "";
         break;
       case "/practitioner-details":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/appointment-card-practitioner-mobile":
         title = "";
         metaDescription = "";
         break;
@@ -107,6 +130,78 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/consumer-profile":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/practitioner-forgot-password":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/consumer-landing-page":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/practitioner-forgot-password1":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/practitioner-sign-up":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/practitioner-sign-up-verification":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/practitioner-profile-detailing-01":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/practitioner-profile-detailing-02":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/practitioner-profile-detailing-03":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/practitioner-dashboard":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/appointments":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/inbox":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/schedule":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/services":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/profile":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/update-schedule":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/add-schedule":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/add-edit-services":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -126,7 +221,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<FirstLandingPage />} />
-      <Route path="/consumer-landing-page" element={<ConsumerLandingPage />} />
+      <Route path="/practitioner-sign-in" element={<PractitionerSignIn />} />
       <Route
         path="/practitioner-landing-page"
         element={<PractitionerLandingPage />}
@@ -152,6 +247,10 @@ function App() {
         element={<ConsumerPreferences4 />}
       />
       <Route path="/practitioner-details" element={<PractitionerDetails />} />
+      <Route
+        path="/appointment-card-practitioner-mobile"
+        element={<AppointmentCardPractitio />}
+      />
       <Route path="/service-details" element={<ServiceDetails />} />
       <Route
         path="/search-results-practitioners"
@@ -175,6 +274,45 @@ function App() {
         path="/consumer-sign-up-email-verification"
         element={<ConsumerSignUpEmailVer />}
       />
+      <Route path="/consumer-profile" element={<ConsumerProfile />} />
+      <Route
+        path="/practitioner-forgot-password"
+        element={<PractitionerForgotPassword />}
+      />
+      <Route path="/consumer-landing-page" element={<ConsumerLandingPage />} />
+      <Route
+        path="/practitioner-forgot-password1"
+        element={<PractitionerForgotPassword1 />}
+      />
+      <Route path="/practitioner-sign-up" element={<PractitionerSignUp />} />
+      <Route
+        path="/practitioner-sign-up-verification"
+        element={<PractitionerSignUpVerif />}
+      />
+      <Route
+        path="/practitioner-profile-detailing-01"
+        element={<PractitionerProfileDetailing />}
+      />
+      <Route
+        path="/practitioner-profile-detailing-02"
+        element={<PractitionerProfileDetailing1 />}
+      />
+      <Route
+        path="/practitioner-profile-detailing-03"
+        element={<PractitionerProfileDetailing2 />}
+      />
+      <Route
+        path="/practitioner-dashboard"
+        element={<PractitionerDashboard />}
+      />
+      <Route path="/appointments" element={<Appointments />} />
+      <Route path="/inbox" element={<Inbox />} />
+      <Route path="/schedule" element={<Schedule />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/update-schedule" element={<UpdateSchedule />} />
+      <Route path="/add-schedule" element={<AddSchedule />} />
+      <Route path="/add-edit-services" element={<AddEditServices />} />
     </Routes>
   );
 }

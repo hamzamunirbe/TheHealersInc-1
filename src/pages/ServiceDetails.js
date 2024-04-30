@@ -13,8 +13,8 @@ import {
 
 const ServiceDetails = () => {
   return (
-    <div className="w-full relative bg-neutral-1 overflow-y-auto flex flex-col items-start justify-start pt-0 px-0 pb-10 box-border gap-[80px] tracking-[normal] leading-[normal] mq750:gap-[40px] mq450:gap-[20px]">
-      <header className="self-stretch shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] bg-neutral-1 flex flex-row items-start justify-center py-[22px] px-5 gap-[704px] sticky top-[0] z-[99] border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq750:gap-[176px] mq450:gap-[88px]">
+    <div className="w-full relative bg-m3-sys-light-on-primary overflow-y-auto flex flex-col items-start justify-start pt-0 px-0 pb-10 box-border gap-[80px] tracking-[normal] leading-[normal] mq750:gap-[40px] mq450:gap-[20px]">
+      <header className="self-stretch shadow-[0px_3px_6px_-4px_rgba(0,_0,_0,_0.12),_0px_6px_16px_rgba(0,_0,_0,_0.08),_0px_9px_28px_8px_rgba(0,_0,_0,_0.05)] bg-m3-sys-light-on-primary flex flex-row items-start justify-center py-[22px] px-5 gap-[704px] sticky top-[0] z-[99] border-[1px] border-solid border-gainsboro-100 lg:gap-[352px] mq750:gap-[176px] mq450:gap-[88px]">
         <div className="w-[236px] flex flex-col items-start justify-start pt-[7px] px-0 pb-0 box-border">
           <div className="self-stretch flex flex-row items-end justify-start gap-[12.4px]">
             <img
@@ -33,7 +33,7 @@ const ServiceDetails = () => {
             </div>
           </div>
         </div>
-        <div className="w-[260px] shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-13xl bg-neutral-1 overflow-hidden shrink-0 flex flex-row items-center justify-start py-2.5 px-4 box-border gap-[20px]">
+        <div className="w-[260px] shadow-[0px_2px_8px_rgba(0,_0,_0,_0.15)] rounded-13xl bg-m3-sys-light-on-primary overflow-hidden shrink-0 flex flex-row items-center justify-start py-2.5 px-4 box-border gap-[20px]">
           <div className="flex flex-row items-center justify-start">
             <img
               className="h-8 w-8 relative overflow-hidden shrink-0"
@@ -43,7 +43,7 @@ const ServiceDetails = () => {
             />
           </div>
           <TextField
-            className="h-[41px] flex-1 font-web-primary-h3-primary-dm-sans font-semibold text-base text-m3-black w-auto"
+            className="h-[41px] flex-1 font-web-secondary-underline-subtitle2-dm-sans font-semibold text-base text-m3-black w-auto"
             variant="standard"
             select
             value={1}
@@ -91,7 +91,7 @@ const ServiceDetails = () => {
         </div>
       </header>
       <main className="self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-10 box-border max-w-full">
-        <section className="w-[1200px] flex flex-row items-start justify-center gap-[56px] max-w-full text-left text-lg text-m3-black font-web-primary-h3-primary-dm-sans mq1050:flex-wrap mq750:gap-[28px]">
+        <section className="w-[1200px] flex flex-row items-start justify-center gap-[56px] max-w-full text-left text-lg text-m3-black font-web-secondary-underline-subtitle2-dm-sans mq1050:flex-wrap mq750:gap-[28px]">
           <div className="flex-1 flex flex-col items-start justify-start gap-[40px] min-w-[426px] max-w-full mq750:gap-[20px] mq750:min-w-full">
             <div className="self-stretch flex flex-col items-start justify-start gap-[24px] max-w-full text-5xl">
               <div className="self-stretch flex flex-row items-start justify-start gap-[7px] max-w-full mq750:flex-wrap">
@@ -143,7 +143,7 @@ const ServiceDetails = () => {
                 <div className="self-stretch flex flex-row items-start justify-start max-w-full text-base">
                   <div className="flex-1 relative leading-[24px] [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:4] [-webkit-box-orient:vertical] max-w-full">
                     <span>{`At [Vendor Name], we're committed to providing exceptional wellness experiences that cater to your unique needs. Our team of dedicated practitioners brings a wealth of knowledge and expertise to every session, ensuring that you receive personalized care and support on your journey to optimal health and vitality. Whether you're seeking relaxation, `}</span>
-                    <span className="[text-decoration:underline] text-royalblue">
+                    <span className="[text-decoration:underline] text-consumer-colors-complemantary">
                       Read more
                     </span>
                     <span className="whitespace-pre-wrap">
@@ -166,7 +166,7 @@ const ServiceDetails = () => {
               <img
                 className="self-stretch h-[284px] relative max-w-full overflow-hidden shrink-0 object-cover"
                 alt=""
-                src="/basemap-image@2x.png"
+                src="/basemap-image1@2x.png"
               />
               <img
                 className="w-[52px] h-[52px] absolute !m-[0] top-[calc(50%_-_26.1px)] left-[calc(50%_-_26px)] overflow-hidden shrink-0 z-[1]"
@@ -176,7 +176,7 @@ const ServiceDetails = () => {
               />
               <div className="self-stretch flex flex-col items-start justify-start gap-[8px] max-w-full text-base">
                 <div className="self-stretch flex flex-row items-start justify-start p-2 box-border gap-[16px] max-w-full mq750:flex-wrap">
-                  <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="w-6 h-6 relative overflow-hidden shrink-0"
                       loading="lazy"
@@ -189,7 +189,7 @@ const ServiceDetails = () => {
                   </div>
                 </div>
                 <div className="self-stretch flex flex-row items-start justify-start p-2 box-border gap-[16px] max-w-full mq750:flex-wrap">
-                  <div className="bg-hitbox overflow-hidden flex flex-col items-center justify-center">
+                  <div className="bg-hitbox-1000 overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="w-6 h-6 relative overflow-hidden shrink-0"
                       loading="lazy"
@@ -215,7 +215,7 @@ const ServiceDetails = () => {
                     alt=""
                     src="/featured-image1@2x.png"
                   />
-                  <div className="flex-1 rounded-tl-none rounded-tr-xl rounded-br-xl rounded-bl-none bg-neutral-1 flex flex-col items-start justify-start py-4 px-6 box-border gap-[8px] min-w-[318px] max-w-full">
+                  <div className="flex-1 rounded-tl-none rounded-tr-xl rounded-br-xl rounded-bl-none bg-m3-sys-light-on-primary flex flex-col items-start justify-start py-4 px-6 box-border gap-[8px] min-w-[318px] max-w-full">
                     <div className="self-stretch flex flex-row items-center justify-between gap-[20px] mq450:flex-wrap">
                       <h1 className="m-0 relative text-inherit leading-[36px] font-bold font-inherit inline-block min-w-[56px] mq450:text-lgi mq450:leading-[29px]">
                         Yoga
@@ -238,7 +238,7 @@ const ServiceDetails = () => {
                           className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                           loading="lazy"
                           alt=""
-                          src="/icons.svg"
+                          src="/icons1.svg"
                         />
                         <div className="relative leading-[22px] font-semibold inline-block min-w-[44px]">
                           Online
@@ -264,7 +264,7 @@ const ServiceDetails = () => {
                     alt=""
                     src="/featured-image1@2x.png"
                   />
-                  <div className="flex-1 rounded-tl-none rounded-tr-xl rounded-br-xl rounded-bl-none bg-neutral-1 flex flex-col items-start justify-start py-4 px-6 box-border gap-[8px] min-w-[318px] max-w-full">
+                  <div className="flex-1 rounded-tl-none rounded-tr-xl rounded-br-xl rounded-bl-none bg-m3-sys-light-on-primary flex flex-col items-start justify-start py-4 px-6 box-border gap-[8px] min-w-[318px] max-w-full">
                     <div className="self-stretch flex flex-row items-center justify-between gap-[20px] mq450:flex-wrap">
                       <h1 className="m-0 relative text-inherit leading-[36px] font-bold font-inherit inline-block min-w-[56px] mq450:text-lgi mq450:leading-[29px]">
                         Yoga
@@ -286,7 +286,7 @@ const ServiceDetails = () => {
                         <img
                           className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                           alt=""
-                          src="/icons.svg"
+                          src="/icons1.svg"
                         />
                         <div className="relative leading-[22px] font-semibold inline-block min-w-[44px]">
                           Online
@@ -311,7 +311,7 @@ const ServiceDetails = () => {
                     alt=""
                     src="/featured-image1@2x.png"
                   />
-                  <div className="flex-1 rounded-tl-none rounded-tr-xl rounded-br-xl rounded-bl-none bg-neutral-1 flex flex-col items-start justify-start py-4 px-6 box-border gap-[8px] min-w-[318px] max-w-full">
+                  <div className="flex-1 rounded-tl-none rounded-tr-xl rounded-br-xl rounded-bl-none bg-m3-sys-light-on-primary flex flex-col items-start justify-start py-4 px-6 box-border gap-[8px] min-w-[318px] max-w-full">
                     <div className="self-stretch flex flex-row items-center justify-between gap-[20px] mq450:flex-wrap">
                       <h1 className="m-0 relative text-inherit leading-[36px] font-bold font-inherit inline-block min-w-[56px] mq450:text-lgi mq450:leading-[29px]">
                         Yoga
@@ -333,7 +333,7 @@ const ServiceDetails = () => {
                         <img
                           className="h-6 w-6 relative overflow-hidden shrink-0 min-h-[24px]"
                           alt=""
-                          src="/icons.svg"
+                          src="/icons1.svg"
                         />
                         <div className="relative leading-[22px] font-semibold inline-block min-w-[44px]">
                           Online
@@ -407,7 +407,7 @@ const ServiceDetails = () => {
                         Fri
                       </div>
                     </div>
-                    <div className="flex-1 rounded bg-darkorange flex flex-col items-center justify-start pt-2 px-[7.5px] pb-1 box-border gap-[2px] min-w-[53px] max-w-[54px] text-neutral-1">
+                    <div className="flex-1 rounded bg-darkorange flex flex-col items-center justify-start pt-2 px-[7.5px] pb-1 box-border gap-[2px] min-w-[53px] max-w-[54px] text-m3-sys-light-on-primary">
                       <b className="relative leading-[18px] uppercase inline-block min-w-[39px]">
                         23 Feb
                       </b>
@@ -468,25 +468,25 @@ const ServiceDetails = () => {
                   <div className="self-stretch flex flex-row flex-wrap items-start justify-start">
                     <button className="cursor-pointer py-0.5 px-[3px] bg-[transparent] rounded overflow-hidden flex flex-row items-center justify-start border-[1px] border-solid border-darkorange">
                       <div className="rounded-81xl bg-primary-dark hidden flex-col items-center justify-center relative">
-                        <div className="w-2 h-2 absolute !m-[0] right-[-2px] bottom-[-2px] rounded-45xl bg-neutral-1 hidden z-[0]">
+                        <div className="w-2 h-2 absolute !m-[0] right-[-2px] bottom-[-2px] rounded-45xl bg-m3-sys-light-on-primary hidden z-[0]">
                           <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-81xl bg-success-main overflow-hidden flex flex-row items-start justify-start">
                             <div className="h-2 w-2 relative rounded-81xl" />
                           </div>
                         </div>
-                        <div className="w-[17px] absolute !m-[0] top-[calc(50%_-_10px)] left-[calc(50%_-_8.5px)] text-xs tracking-[0.4px] leading-[166%] font-h5-medium text-neutral-1 text-center inline-block z-[1]">
+                        <div className="w-[17px] absolute !m-[0] top-[calc(50%_-_10px)] left-[calc(50%_-_8.5px)] text-xs tracking-[0.4px] leading-[166%] font-components-helper-text text-m3-sys-light-on-primary text-center inline-block z-[1]">
                           OP
                         </div>
                         <div className="w-6 h-6 relative [transform:_rotate(-90deg)] z-[2]" />
                       </div>
                       <div className="flex flex-col items-start justify-start py-[3px] px-1.5">
-                        <b className="relative text-xs leading-[18px] uppercase font-web-primary-h3-primary-dm-sans text-darkorange text-left whitespace-nowrap">
+                        <b className="relative text-xs leading-[18px] uppercase font-web-secondary-underline-subtitle2-dm-sans text-darkorange text-left whitespace-nowrap">
                           09:00 AM to 05:00 PM
                         </b>
                       </div>
                       <img
                         className="h-6 w-6 relative rounded-81xl overflow-hidden shrink-0 hidden min-h-[24px]"
                         alt=""
-                        src="/cancelfilled1.svg"
+                        src="/cancelfilled11.svg"
                       />
                     </button>
                   </div>
@@ -503,7 +503,7 @@ const ServiceDetails = () => {
                         Start Time
                       </div>
                       <FormControl
-                        className="self-stretch h-6 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200"
+                        className="self-stretch h-6 font-web-secondary-underline-subtitle2-dm-sans text-base text-m3-ref-neutral-neutral20-200"
                         variant="standard"
                         sx={{
                           borderTopWidth: "1px",
@@ -570,9 +570,9 @@ const ServiceDetails = () => {
                         </Select>
                         <FormHelperText />
                       </FormControl>
-                      <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                      <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
                     </div>
-                    <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+                    <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                       <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                         Helper text
                       </div>
@@ -584,7 +584,7 @@ const ServiceDetails = () => {
                         End Time
                       </div>
                       <FormControl
-                        className="self-stretch h-6 font-web-primary-h3-primary-dm-sans text-base text-m3-ref-neutral-neutral20-200"
+                        className="self-stretch h-6 font-web-secondary-underline-subtitle2-dm-sans text-base text-m3-ref-neutral-neutral20-200"
                         variant="standard"
                         sx={{
                           borderTopWidth: "1px",
@@ -651,9 +651,9 @@ const ServiceDetails = () => {
                         </Select>
                         <FormHelperText />
                       </FormControl>
-                      <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder" />
+                      <div className="self-stretch h-px relative box-border border-t-[1px] border-solid border-input-standard-enabledborder-1600" />
                     </div>
-                    <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-h5-medium">
+                    <div className="h-5 w-[220px] hidden flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border font-components-helper-text">
                       <div className="self-stretch relative tracking-[0.4px] leading-[166%]">
                         Helper text
                       </div>
@@ -703,7 +703,7 @@ const ServiceDetails = () => {
           </div>
         </section>
       </main>
-      <footer className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-mid text-gray-200 font-web-primary-h3-primary-dm-sans">
+      <footer className="self-stretch flex flex-row items-start justify-center py-0 px-5 box-border max-w-full text-left text-mid text-gray-200 font-gilroy-regular">
         <div className="w-[1200px] flex flex-col items-start justify-start gap-[32px] max-w-full mq750:gap-[16px]">
           <div className="flex flex-row items-start justify-start gap-[54.9px] lg:flex-wrap mq750:gap-[27px]">
             <div className="w-[248px] flex flex-col items-start justify-start gap-[32px] text-mini text-gray-700">
@@ -778,7 +778,7 @@ const ServiceDetails = () => {
                 Cookie Preferences
               </h3>
             </div>
-            <div className="w-[135.9px] flex flex-col items-start justify-start gap-[16px] text-4xs-4 text-neutral-1 font-open-sans">
+            <div className="w-[135.9px] flex flex-col items-start justify-start gap-[16px] text-4xs-4 text-m3-sys-light-on-primary font-open-sans">
               <img
                 className="self-stretch h-10 relative max-w-full overflow-hidden shrink-0"
                 loading="lazy"
@@ -866,12 +866,12 @@ const ServiceDetails = () => {
                   <img
                     className="h-6 w-6 relative object-cover min-h-[24px]"
                     alt=""
-                    src="/logoinstagram@2x.png"
+                    src="/logoinstagram1@2x.png"
                   />
                   <img
                     className="h-6 w-6 relative object-cover min-h-[24px]"
                     alt=""
-                    src="/logolinkedin@2x.png"
+                    src="/logolinkedin1@2x.png"
                   />
                 </div>
               </div>

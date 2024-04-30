@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 
 const PractitionerLandingPage = () => {
   return (
-    <div className="w-full relative bg-gray-100 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal] text-left text-smi text-vendor-colors-triadic font-web-primary-h3-primary-dm-sans">
+    <div className="w-full relative bg-gray-100 overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal] text-left text-smi text-vendor-colors-triadic font-web-secondary-underline-subtitle2-dm-sans">
       <header className="self-stretch h-[108px] bg-ghostwhite-100 flex flex-row items-start justify-center py-6 px-5 box-border gap-[732.2px] top-[0] z-[99] sticky mq450:gap-[92px] mq750:gap-[183px] mq1225:gap-[366px]">
         <div className="w-[251.8px] flex flex-col items-start justify-start pt-[5px] px-0 pb-0 box-border">
           <div className="self-stretch flex flex-row items-end justify-start gap-[13.2px]">
@@ -55,7 +55,7 @@ const PractitionerLandingPage = () => {
           </Button>
         </div>
       </header>
-      <section className="self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-14 box-border max-w-full text-left text-smi text-vendor-colors-triadic font-web-primary-h3-primary-dm-sans mq750:pb-9 mq750:box-border">
+      <section className="self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-14 box-border max-w-full text-left text-smi text-vendor-colors-triadic font-web-secondary-underline-subtitle2-dm-sans mq750:pb-9 mq750:box-border">
         <div className="flex-1 bg-ghostwhite-100 flex flex-col items-center justify-start py-14 px-5 box-border max-w-full mq750:pt-9 mq750:pb-9 mq750:box-border">
           <div className="w-[1240px] flex flex-row items-start justify-between max-w-full gap-[20px] mq1225:flex-wrap">
             <div className="w-[664px] overflow-hidden shrink-0 flex flex-col items-start justify-center py-[72.5px] px-0 box-border gap-[24px] min-w-[664px] max-w-full mq750:pt-[47px] mq750:pb-[47px] mq750:box-border mq750:min-w-full mq1225:flex-1">
@@ -110,7 +110,7 @@ const PractitionerLandingPage = () => {
           </h1>
         </div>
       </div>
-      <section className="self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-14 box-border max-w-full text-left text-lg text-gray-700 font-web-primary-h3-primary-dm-sans mq750:pb-9 mq750:box-border">
+      <section className="self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-14 box-border max-w-full text-left text-lg text-gray-700 font-web-secondary-underline-subtitle2-dm-sans mq750:pb-9 mq750:box-border">
         <div className="w-[1110px] flex flex-row items-end justify-center gap-[95px] max-w-full mq750:gap-[24px] mq1050:flex-wrap mq1225:gap-[47px]">
           <img
             className="w-[445px] relative rounded-3xs max-h-full object-cover max-w-full mq1050:flex-1"
@@ -138,7 +138,7 @@ const PractitionerLandingPage = () => {
           </div>
         </div>
       </section>
-      <section className="self-stretch flex flex-col items-center justify-center py-14 px-5 box-border gap-[56px] max-w-full text-center text-smi text-consumer-colors-monochromatic font-web-primary-h3-primary-dm-sans mq750:gap-[28px] mq750:pt-9 mq750:pb-9 mq750:box-border">
+      <section className="self-stretch flex flex-col items-center justify-center py-14 px-5 box-border gap-[56px] max-w-full text-center text-smi text-consumer-colors-monochromatic font-web-secondary-underline-subtitle2-dm-sans mq750:gap-[28px] mq750:pt-9 mq750:pb-9 mq750:box-border">
         <div className="w-[589px] overflow-hidden flex flex-col items-center justify-start gap-[24px] max-w-full">
           <b className="self-stretch relative tracking-[1.63px] uppercase">
             Why choose us
@@ -214,7 +214,7 @@ const PractitionerLandingPage = () => {
           </div>
         </div>
       </section>
-      <section className="self-stretch bg-vendor-colors-primary-1 flex flex-row items-center justify-start py-14 px-[100px] box-border gap-[80px] max-w-full text-left text-smi text-consumer-colors-monochromatic font-web-primary-h3-primary-dm-sans mq450:gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border mq750:gap-[40px] mq750:py-9 mq750:px-[50px] mq750:box-border mq1225:flex-wrap">
+      <section className="self-stretch bg-vendor-colors-primary-1 flex flex-row items-center justify-start py-14 px-[100px] box-border gap-[80px] max-w-full text-left text-smi text-consumer-colors-monochromatic font-web-secondary-underline-subtitle2-dm-sans mq450:gap-[20px] mq450:pl-5 mq450:pr-5 mq450:box-border mq750:gap-[40px] mq750:py-9 mq750:px-[50px] mq750:box-border mq1225:flex-wrap">
         <div className="flex-1 flex flex-col items-start justify-center gap-[8px] min-w-[461px] max-w-full mq750:min-w-full">
           <div className="self-stretch flex flex-col items-start justify-start gap-[16px] max-w-full">
             <b className="w-[589px] relative tracking-[1.63px] uppercase inline-block max-w-full">
@@ -240,7 +240,7 @@ const PractitionerLandingPage = () => {
           />
         </div>
       </section>
-      <footer className="self-stretch bg-neutral-1 flex flex-col items-center justify-start py-10 px-5 box-border gap-[32px] max-w-full text-left text-mid text-gray-200 font-web-primary-h3-primary-dm-sans mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq750:gap-[16px]">
+      <footer className="self-stretch bg-m3-sys-light-on-primary flex flex-col items-center justify-start py-10 px-5 box-border gap-[32px] max-w-full text-left text-mid text-gray-200 font-web-secondary-underline-subtitle2-dm-sans mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq750:gap-[16px]">
         <div className="flex flex-row items-start justify-start gap-[61.6px] max-w-full mq450:gap-[15px] mq750:gap-[31px] mq1225:flex-wrap">
           <div className="w-64 overflow-hidden shrink-0 flex flex-col items-start justify-start gap-[32px] text-mini text-gray-700 mq450:gap-[16px]">
             <div className="w-60 flex flex-row items-end justify-start gap-[12.6px]">
@@ -314,7 +314,7 @@ const PractitionerLandingPage = () => {
               Cookie Preferences
             </div>
           </div>
-          <div className="w-[135px] flex flex-col items-start justify-start gap-[16px] text-4xs-4 text-neutral-1 font-open-sans">
+          <div className="w-[135px] flex flex-col items-start justify-start gap-[16px] text-4xs-4 text-m3-sys-light-on-primary font-open-sans">
             <div className="self-stretch flex flex-col items-start justify-center">
               <img
                 className="self-stretch h-10 relative max-w-full overflow-hidden shrink-0"
